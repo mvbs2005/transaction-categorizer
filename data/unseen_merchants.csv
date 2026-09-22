@@ -1,0 +1,895 @@
+description,amount,direction,source_category,budget_category,merchant,merchant_seen_in_training
+[debit] XBOX GAME PASS #2277 SAN FRANCISCO CA,60.11,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[debit] PURCHASE CLASSPASS SAN FRANCISCO CAUS,104.43,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] UBER EATS*G4336MQ,16.65,debit,Dining,Food & Drink,UBER EATS,False
+[credit] STATE OF IN PAYROLL DES:BILLPAY ID:BQJL8TY2SV INDN:CARDHOLDER,487.49,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] POS DEBIT SHELL OIL Z9PZM6,56.81,debit,Gas,Transportation,SHELL OIL,False
+[debit] CHEGG ORDER NASHVILLE TN,1038.85,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] ASPEN DENTAL*85MK48VYD,118.08,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[debit] BIGGBY COFFEE #8231 ATLANTA GA,12.79,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] PAYPAL *SQ*TACOCASA,89.3,debit,Dining,Food & Drink,SQ *TACO CASA,False
+[debit] CTA VENTRA SEATTLE WA,30.11,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] DELTA AIR LINES*W7VLBVUG7,141.46,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] AMAZON WEB SERVICES DES:DEPOSIT ID:2WNHQQV2ZJ INDN:CARDHOLDER,22.03,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] LOWES*BTTM5C4P,82.45,debit,Shopping,Shopping,LOWES,False
+[debit] PURCHASE CLASSPASS PHOENIX AZUS,154.97,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] PAYPAL *EVENTBRITE,98.1,debit,Entertainment,Entertainment,EVENTBRITE,False
+[credit] LINCOLN PROP CO*PNM36Z7XAR,1150.4,credit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] PURCHASE UBER TRIP DENVER COUS,16.1,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] CLASSPASS*JEHGLF8G,41.59,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] ONE MEDICAL ATLANTA GA,426.09,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] POS DEBIT UBER TRIP 32GYWL,33.14,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] PURCHASE SUNOCO SEATTLE WAUS,29.79,debit,Gas,Transportation,SUNOCO,False
+[debit] PAYPAL *DELTAAIRLINES,873.85,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] AVALON COMMUNITIES*YAWWX2WT,1565.36,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] CLASSPASS SAN FRANCISCO CA,71.43,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] EVENTBRITE*X3UK46JTSQ,100.01,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] UBER TRIP*2GK6921EWN,43.75,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] UBER TRIP*2WSP3HU5,30.49,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] UBER TRIP*DZ77C0,49.94,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] POS DEBIT COMCAST XFINITY FQ4YS9,64.31,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] SQ *LOWES PHOENIX AZ,89.33,debit,Shopping,Shopping,LOWES,False
+[debit] PURCHASE PLAYSTATION NETWORK ATLANTA GAUS,109.45,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[credit] PAYROLL DEP DES:ACH PMT ID:UNXA6JK1QZ INDN:CARDHOLDER,1715.19,credit,Income,Income,PAYROLL DEP,False
+[debit] STARBUCKS*0GYT5Q1T1,16.0,debit,Coffee,Food & Drink,STARBUCKS,False
+[debit] BIGGBY COFFEE SAN FRANCISCO CA,22.21,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] FIVE GUYS*C61HRJ,82.0,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] POS DEBIT DUNKIN JB3X7A,23.33,debit,Coffee,Food & Drink,DUNKIN,False
+[debit] CRUNCH FITNESS*YSZM9MC,109.79,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] PURCHASE UBER TRIP SEATTLE WAUS,25.57,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] CHEGG ORDER*FE1TUM3,181.53,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] CLASSPASS DES:BILLPAY ID:NL2KSKJ6EJ INDN:CARDHOLDER,57.36,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] FOREIGN TRANS FEE,36.84,debit,Fees,Transfers & Fees,FOREIGN TRANS FEE,False
+[debit] ROBINHOOD FUNDING #6335 NASHVILLE TN,434.32,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] COMCAST XFINITY DES:BILLPAY ID:6BZ0J5UJWQ INDN:CARDHOLDER,53.72,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] CTA VENTRA*22Q2N9,8.92,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] SHELL OIL #687 SAN FRANCISCO CA,85.9,debit,Gas,Transportation,SHELL OIL,False
+[debit] POS DEBIT IKEA KPP5KU,355.52,debit,Shopping,Shopping,IKEA,False
+[debit] PURCHASE T-MOBILE NASHVILLE TNUS,222.14,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] LABCORP*QNJFYN1FUK,310.57,debit,Healthcare,Health & Wellness,LABCORP,False
+[debit] PURCHASE SOUTHWEST AIRLINE CHICAGO ILUS,801.57,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] LOWES #2988 COLUMBUS OH,479.88,debit,Shopping,Shopping,LOWES,False
+[debit] AMERICAN ELECTRIC*J2WBXET,50.58,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] POS DEBIT AMAZON WEB SERVICES T07ZW1,43.19,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] T-MOBILE*DJFPEQ3W,251.55,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] LINCOLN PROP CO*RQVHX8YD,1819.16,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] T-MOBILE DES:ACH PMT ID:9QTK2WGJH9 INDN:CARDHOLDER,26.92,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] SQ *CTA VENTRA WEST LAFAY IN,60.68,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] UBER EATS #6380 NASHVILLE TN,51.03,debit,Dining,Food & Drink,UBER EATS,False
+[debit] T-MOBILE DES:BILLPAY ID:9MS18C59T1 INDN:CARDHOLDER,73.52,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] T-MOBILE DES:PAYMENT ID:682865MXNY INDN:CARDHOLDER,110.47,debit,Utilities,Bills & Housing,T-MOBILE,False
+[credit] POS DEBIT PAYROLL DEP XFQWSX,1807.09,credit,Income,Income,PAYROLL DEP,False
+[debit] KROGER*CKAGHJBXH,70.12,debit,Groceries,Food & Drink,KROGER,False
+[credit] STATE OF IN PAYROLL*4AQV4EXP2,1679.77,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] PAYPAL *SHELLOIL,80.25,debit,Gas,Transportation,SHELL OIL,False
+[debit] AVALON COMMUNITIES DES:DEPOSIT ID:BVVV2HQ9NL INDN:CARDHOLDER,832.63,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] NETFLIX.COM DES:ACH PMT ID:BJS8SN80VM INDN:CARDHOLDER,52.92,debit,Subscriptions,Entertainment,NETFLIX.COM,False
+[debit] SOFI MONEY XFER*7LNL5MDU,300.82,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] AVALON COMMUNITIES*7FJD6F45W,2141.33,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] ONE MEDICAL #8067 BROOKLYN NY,31.47,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] SOFI MONEY XFER PHOENIX AZ,83.6,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] PURCHASE PLAYSTATION NETWORK CHICAGO ILUS,111.92,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] PURCHASE ASPEN DENTAL SAN FRANCISCO CAUS,76.14,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[debit] PURCHASE T-MOBILE INDIANAPOLIS INUS,91.39,debit,Utilities,Bills & Housing,T-MOBILE,False
+[credit] STATE OF IN PAYROLL DES:DIRECT DEP ID:AXL55RRTQW INDN:CARDHOLDER,4037.51,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] PURCHASE AMERICAN ELECTRIC AUSTIN TXUS,112.38,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] PURCHASE LOWES SEATTLE WAUS,43.79,debit,Shopping,Shopping,LOWES,False
+[debit] PEARSON EDUCATION DENVER CO,1545.84,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] PURCHASE SOFI MONEY XFER COLUMBUS OHUS,475.58,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] SQ *IKEA COLUMBUS OH,242.04,debit,Shopping,Shopping,IKEA,False
+[debit] PURCHASE AVALON COMMUNITIES DENVER COUS,1946.31,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] AMAZON WEB SERVICES DES:PAYMENT ID:636WB8QB1E INDN:CARDHOLDER,51.1,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] POS DEBIT FIVE GUYS PT102C,8.9,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] AMERICAN ELECTRIC DES:DEPOSIT ID:NWEX7AJ29X INDN:CARDHOLDER,125.17,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] IKEA*HVAXTHV,439.26,debit,Shopping,Shopping,IKEA,False
+[debit] SHAKE SHACK CHICAGO IL,53.18,debit,Dining,Food & Drink,SHAKE SHACK,False
+[debit] SOUTHWEST AIRLINE*YZKB0L8DU,868.49,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] ASPEN DENTAL*ZB9S1A8,235.0,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[debit] SQ *ROBINHOOD FUNDING SAN FRANCI CA,758.7,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] AVALON COMMUNITIES*HY13G3TW,938.94,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] UBER TRIP #1079 COLUMBUS OH,18.3,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] LOWES #6903 NASHVILLE TN,398.17,debit,Shopping,Shopping,LOWES,False
+[debit] LINCOLN PROP CO DES:BILLPAY ID:XH6X43JM5F INDN:CARDHOLDER,2137.98,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] POS DEBIT SOFI MONEY XFER VHM7WN,90.52,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] PURCHASE SOUTHWEST AIRLINE SAN FRANCISCO CAUS,684.79,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] PAYPAL *HEBONLINE,23.64,debit,Groceries,Food & Drink,HEB ONLINE,False
+[debit] CLASSPASS DES:ACH PMT ID:Y8VK1G1KT8 INDN:CARDHOLDER,100.18,debit,Fitness,Health & Wellness,CLASSPASS,False
+[credit] PAYROLL DEP*1XBYFA,3467.98,credit,Income,Income,PAYROLL DEP,False
+[debit] PEARSON EDUCATION DES:ACH PMT ID:K020XD4FNV INDN:CARDHOLDER,701.57,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] PAYPAL *ROBINHOODFUNDING,245.6,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[credit] CTA VENTRA*FMMYYH8,11.27,credit,Rideshare,Transportation,CTA VENTRA,False
+[debit] PAYPAL *UBEREATS,82.56,debit,Dining,Food & Drink,UBER EATS,False
+[debit] SQ *ASPEN DENTAL NASHVILLE TN,266.85,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[debit] AMAZON WEB SERVICES*S41ZT1,3.45,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] SQ *FIVE GUYS AUSTIN TX,15.05,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] ROBINHOOD FUNDING BROOKLYN NY,875.0,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] SUNOCO*XR2ZGUCS,47.71,debit,Gas,Transportation,SUNOCO,False
+[debit] AIRBNB BROOKLYN NY,681.34,debit,Travel,Transportation,AIRBNB,False
+[debit] PURCHASE ROBINHOOD FUNDING BROOKLYN NYUS,476.97,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] AVALON COMMUNITIES DES:BILLPAY ID:8W976G0LZQ INDN:CARDHOLDER,2201.26,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] CLASSPASS DES:DIRECT DEP ID:6Y4SDAF8F9 INDN:CARDHOLDER,130.0,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] PAYPAL *WEGMANS,112.64,debit,Groceries,Food & Drink,WEGMANS,False
+[debit] POS DEBIT T-MOBILE UYUVD9,152.74,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] PURCHASE PEARSON EDUCATION PHOENIX AZUS,210.55,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[credit] PAYROLL DEP AUSTIN TX,1967.28,credit,Income,Income,PAYROLL DEP,False
+[debit] AMERICAN ELECTRIC DES:BILLPAY ID:JLZRZFMH4Z INDN:CARDHOLDER,301.97,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] ONE MEDICAL #3099 CHICAGO IL,312.43,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] POS DEBIT FIVE GUYS WK9842,23.74,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] BIGGBY COFFEE*0DF7FSKTJ,4.39,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] POS DEBIT IKEA XBD6XB,348.2,debit,Shopping,Shopping,IKEA,False
+[debit] CHEGG ORDER DES:BILLPAY ID:8DCYDRMH6L INDN:CARDHOLDER,1417.11,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] SQ *STARBUCKS SEATTLE WA,13.64,debit,Coffee,Food & Drink,STARBUCKS,False
+[debit] SQ *UBER EATS BROOKLYN NY,80.39,debit,Dining,Food & Drink,UBER EATS,False
+[debit] PAYPAL *SHAKESHACK,85.87,debit,Dining,Food & Drink,SHAKE SHACK,False
+[debit] SQ *DUNKIN DENVER CO,20.66,debit,Coffee,Food & Drink,DUNKIN,False
+[debit] PAYPAL *PLAYSTATIONNETWORK,134.75,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] SQ *SHELL OIL INDIANAPOL IN,58.19,debit,Gas,Transportation,SHELL OIL,False
+[debit] POS DEBIT ROBINHOOD FUNDING 7DF09Y,765.0,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[credit] STATE OF IN PAYROLL*K36BE96K,1394.71,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] AMAZON WEB SERVICES DES:DEPOSIT ID:5GC8Q2CVLC INDN:CARDHOLDER,11.3,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] LABCORP #6518 SEATTLE WA,19.25,debit,Healthcare,Health & Wellness,LABCORP,False
+[debit] POS DEBIT BIGGBY COFFEE 8522WY,12.28,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] SOUTHWEST AIRLINE #5775 NASHVILLE TN,322.1,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] PURCHASE SOUTHWEST AIRLINE INDIANAPOLIS INUS,927.92,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] SOUTHWEST AIRLINE #2311 NASHVILLE TN,546.61,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] SQ *UBER TRIP INDIANAPOL IN,23.72,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] SQ *TACO CASA COLUMBUS OH,83.9,debit,Dining,Food & Drink,SQ *TACO CASA,False
+[debit] CHEGG ORDER DES:DEPOSIT ID:NH6CJF6L59 INDN:CARDHOLDER,70.08,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] DELTA AIR LINES*7NKX83C,1218.42,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] PURCHASE SHELL OIL DENVER COUS,83.95,debit,Gas,Transportation,SHELL OIL,False
+[debit] POS DEBIT PEARSON EDUCATION TYHZQK,1499.53,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] T-MOBILE DES:ACH PMT ID:B5EMJAMH49 INDN:CARDHOLDER,303.25,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] COMCAST XFINITY DES:BILLPAY ID:55Y4RU5T7Z INDN:CARDHOLDER,220.42,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] POS DEBIT ASPEN DENTAL GDTR0K,426.09,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[debit] ROBINHOOD FUNDING*VLFRC1D,94.89,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] PAYPAL *CTAVENTRA,44.5,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] NOTION LABS DES:PAYMENT ID:YS4MX3VZ47 INDN:CARDHOLDER,10.86,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] PEARSON EDUCATION DES:BILLPAY ID:BSJH9UEY8A INDN:CARDHOLDER,210.58,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] COMCAST XFINITY DES:PAYMENT ID:JMEJWD6AU5 INDN:CARDHOLDER,250.13,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] COMCAST XFINITY DENVER CO,130.08,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] SQ *TACO CASA #5634 BROOKLYN NY,53.7,debit,Dining,Food & Drink,SQ *TACO CASA,False
+[debit] SQ *SUNOCO NASHVILLE TN,70.13,debit,Gas,Transportation,SUNOCO,False
+[debit] POS DEBIT FIVE GUYS N13HKZ,43.46,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] PEARSON EDUCATION*E7B28K,700.63,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] NOTION LABS DES:PAYMENT ID:5L5LM44CW7 INDN:CARDHOLDER,41.53,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] PAYPAL *REI.COM,371.86,debit,Shopping,Shopping,REI.COM,False
+[debit] AVALON COMMUNITIES DES:DEPOSIT ID:70V73W075U INDN:CARDHOLDER,855.28,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] PAPER STATEMENT FEE KU14,4.59,debit,Fees,Transfers & Fees,PAPER STATEMENT FEE,False
+[debit] POS DEBIT HEB ONLINE XX94LJ,133.8,debit,Groceries,Food & Drink,HEB ONLINE,False
+[debit] FIVE GUYS #248 DENVER CO,62.71,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] DELTA AIR LINES #511 COLUMBUS OH,560.57,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] PURCHASE LABCORP DENVER COUS,563.85,debit,Healthcare,Health & Wellness,LABCORP,False
+[debit] PEARSON EDUCATION DES:DIRECT DEP ID:SRR2HVJ2TN INDN:CARDHOLDER,73.36,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] DUNKIN #9915 SAN FRANCISCO CA,7.77,debit,Coffee,Food & Drink,DUNKIN,False
+[credit] POS DEBIT PAYROLL DEP 4144KT,3972.57,credit,Income,Income,PAYROLL DEP,False
+[debit] PURCHASE SOFI MONEY XFER ATLANTA GAUS,795.66,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] DUNKIN INDIANAPOLIS IN,9.8,debit,Coffee,Food & Drink,DUNKIN,False
+[credit] PAYROLL DEP*YPDMU46C5,2256.64,credit,Income,Income,PAYROLL DEP,False
+[debit] PAPER STATEMENT FEE,37.93,debit,Fees,Transfers & Fees,PAPER STATEMENT FEE,False
+[debit] UBER TRIP*DZ4VRJ,4.38,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] POS DEBIT AMAZON WEB SERVICES DTM6WV,46.85,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] EVENTBRITE SAN FRANCISCO CA,106.12,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] PURCHASE AMERICAN ELECTRIC NASHVILLE TNUS,252.66,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] SOFI MONEY XFER #614 COLUMBUS OH,188.09,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] WEGMANS ATLANTA GA,176.23,debit,Groceries,Food & Drink,WEGMANS,False
+[debit] POS DEBIT PEARSON EDUCATION T4H3M9,483.62,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] FOREIGN TRANS FEE 8UJV,21.9,debit,Fees,Transfers & Fees,FOREIGN TRANS FEE,False
+[debit] SQ *WEGMANS COLUMBUS OH,196.91,debit,Groceries,Food & Drink,WEGMANS,False
+[debit] LOWES #9998 ATLANTA GA,69.97,debit,Shopping,Shopping,LOWES,False
+[debit] PURCHASE AVALON COMMUNITIES COLUMBUS OHUS,800.91,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] SOUTHWEST AIRLINE #6140 BROOKLYN NY,699.26,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] WEGMANS BROOKLYN NY,100.82,debit,Groceries,Food & Drink,WEGMANS,False
+[credit] PURCHASE LABCORP WEST LAFAYETTE INUS,288.77,credit,Healthcare,Health & Wellness,LABCORP,False
+[debit] REI.COM*R5WNQ4SKL,102.3,debit,Shopping,Shopping,REI.COM,False
+[debit] NOTION LABS*ZVMPYXRUG,45.05,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] LINCOLN PROP CO*WMWUBC,2243.39,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] POS DEBIT CLASSPASS ARQFZ9,34.93,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] CRUNCH FITNESS WEST LAFAYETTE IN,125.51,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] SQ *PLAYSTATION NETWORK BROOKLYN NY,15.8,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] AMAZON WEB SERVICES DES:BILLPAY ID:K01MZ7K2Y9 INDN:CARDHOLDER,29.96,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] PURCHASE NOTION LABS DENVER COUS,38.06,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] SOUTHWEST AIRLINE #6639 AUSTIN TX,933.07,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] NETFLIX.COM DES:BILLPAY ID:6227GAC7N5 INDN:CARDHOLDER,51.83,debit,Subscriptions,Entertainment,NETFLIX.COM,False
+[debit] AMAZON WEB SERVICES*DJX94H,48.43,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] PURCHASE LINCOLN PROP CO NASHVILLE TNUS,1843.4,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] PAYPAL *ASPENDENTAL,104.25,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[debit] PURCHASE CRUNCH FITNESS SAN FRANCISCO CAUS,135.95,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] DUNKIN*T7SHRP,4.92,debit,Coffee,Food & Drink,DUNKIN,False
+[debit] SQ *UBER TRIP SEATTLE WA,33.68,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] PEARSON EDUCATION DES:BILLPAY ID:1A2K7NENWN INDN:CARDHOLDER,912.2,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] SQ *REI.COM NASHVILLE TN,78.49,debit,Shopping,Shopping,REI.COM,False
+[debit] SUNOCO #6911 DENVER CO,76.53,debit,Gas,Transportation,SUNOCO,False
+[debit] SHELL OIL COLUMBUS OH,32.01,debit,Gas,Transportation,SHELL OIL,False
+[credit] PAYROLL DEP DES:DEPOSIT ID:GRWURLBLVQ INDN:CARDHOLDER,713.28,credit,Income,Income,PAYROLL DEP,False
+[debit] PURCHASE PLAYSTATION NETWORK INDIANAPOLIS INUS,83.34,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] UBER TRIP*K8XJWZTVDV,49.02,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] FOREIGN TRANS FEE L99F,2.36,debit,Fees,Transfers & Fees,FOREIGN TRANS FEE,False
+[debit] T-MOBILE CHICAGO IL,152.33,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] AIRBNB*J7Z2T2,901.73,debit,Travel,Transportation,AIRBNB,False
+[debit] PURCHASE BIGGBY COFFEE NASHVILLE TNUS,5.5,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] ASPEN DENTAL*J6VYSUJH,414.89,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[credit] PAYROLL DEP DES:BILLPAY ID:4EH5UDE7ZS INDN:CARDHOLDER,3347.04,credit,Income,Income,PAYROLL DEP,False
+[debit] DELTA AIR LINES*TMZN3GT,118.69,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] BIGGBY COFFEE NASHVILLE TN,18.05,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[credit] STATE OF IN PAYROLL DES:DIRECT DEP ID:P7VUV3JJ5U INDN:CARDHOLDER,3988.55,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] CTA VENTRA*L7M4EXL6,61.58,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] SQ *TACO CASA #9413 BROOKLYN NY,86.95,debit,Dining,Food & Drink,SQ *TACO CASA,False
+[debit] LOWES #8686 INDIANAPOLIS IN,460.33,debit,Shopping,Shopping,LOWES,False
+[debit] POS DEBIT DELTA AIR LINES FL6ZZX,271.84,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] UBER TRIP*HRJSMJ,43.9,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] COMCAST XFINITY*TNQLTY,137.08,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] PURCHASE PEARSON EDUCATION DENVER COUS,619.28,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] UBER TRIP #4280 WEST LAFAYETTE IN,31.32,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] EVENTBRITE*T2ZTE5,130.53,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] IKEA #8829 NASHVILLE TN,182.19,debit,Shopping,Shopping,IKEA,False
+[debit] SQ *BIGGBY COFFEE PHOENIX AZ,12.02,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] PEARSON EDUCATION DES:DIRECT DEP ID:CEKA4RFTUD INDN:CARDHOLDER,1212.19,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] SHELL OIL DENVER CO,70.91,debit,Gas,Transportation,SHELL OIL,False
+[debit] POS DEBIT SOUTHWEST AIRLINE FSKEZC,614.69,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] POS DEBIT CTA VENTRA LUU0AM,12.6,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] POS DEBIT SOUTHWEST AIRLINE RGPTV8,805.98,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] ROBINHOOD FUNDING #6942 NASHVILLE TN,299.69,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] HEB ONLINE #5999 INDIANAPOLIS IN,51.71,debit,Groceries,Food & Drink,HEB ONLINE,False
+[debit] AMAZON WEB SERVICES DES:DEPOSIT ID:FREGE04533 INDN:CARDHOLDER,43.53,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] STOP N SHOP*GK91D045,176.32,debit,Groceries,Food & Drink,STOP N SHOP,False
+[debit] PAYPAL *ONEMEDICAL,99.8,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] PAYPAL *DICKSSPORTINGGDS,267.61,debit,Shopping,Shopping,DICKS SPORTING GDS,False
+[debit] SQ *ASPEN DENTAL SEATTLE WA,306.11,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[debit] POS DEBIT DICKS SPORTING GDS APN11B,470.1,debit,Shopping,Shopping,DICKS SPORTING GDS,False
+[debit] POS DEBIT EVENTBRITE C2VELY,111.8,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] POS DEBIT UBER EATS 9LRN39,8.15,debit,Dining,Food & Drink,UBER EATS,False
+[debit] PEARSON EDUCATION*VKSWYMBL,1586.8,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] CLASSPASS*BEMKE0M8,69.23,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] PURCHASE CTA VENTRA SAN FRANCISCO CAUS,53.93,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] POS DEBIT SOFI MONEY XFER VG0PEY,743.44,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] LABCORP BROOKLYN NY,12.19,debit,Healthcare,Health & Wellness,LABCORP,False
+[debit] DUNKIN*DF72VYQUA,13.16,debit,Coffee,Food & Drink,DUNKIN,False
+[debit] SOFI MONEY XFER*06D1F2,579.11,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[credit] STATE OF IN PAYROLL DES:ACH PMT ID:U15JX1H02C INDN:CARDHOLDER,229.49,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] DUNKIN*S6WES86BAB,13.81,debit,Coffee,Food & Drink,DUNKIN,False
+[debit] DICKS SPORTING GDS #7030 CHICAGO IL,346.1,debit,Shopping,Shopping,DICKS SPORTING GDS,False
+[debit] ONE MEDICAL CHICAGO IL,565.91,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] LINCOLN PROP CO SAN FRANCISCO CA,1508.56,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] BIGGBY COFFEE*PFBXX8,6.25,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] SQ *EVENTBRITE CHICAGO IL,62.48,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] POS DEBIT ROBINHOOD FUNDING FMQQUM,182.29,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] COMCAST XFINITY DES:DIRECT DEP ID:1QF1Q8WPKT INDN:CARDHOLDER,300.83,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] SQ *SOFI MONEY XFER INDIANAPOL IN,353.28,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] PLAYSTATION NETWORK BROOKLYN NY,104.38,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] SQ *ASPEN DENTAL CHICAGO IL,366.85,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[debit] LINCOLN PROP CO DES:PAYMENT ID:4P1VUK3QSU INDN:CARDHOLDER,1568.81,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] PAYPAL *DUNKIN,16.58,debit,Coffee,Food & Drink,DUNKIN,False
+[credit] PAYPAL *DELTAAIRLINES,380.42,credit,Travel,Transportation,DELTA AIR LINES,False
+[debit] NETFLIX.COM DES:DEPOSIT ID:L8VWLB7MX4 INDN:CARDHOLDER,41.09,debit,Subscriptions,Entertainment,NETFLIX.COM,False
+[debit] CRUNCH FITNESS DES:ACH PMT ID:58KB02H6LU INDN:CARDHOLDER,114.27,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] AMERICAN ELECTRIC DES:PAYMENT ID:CFENL4E8CF INDN:CARDHOLDER,61.14,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] POS DEBIT NOTION LABS 4Z6YYG,25.82,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] UBER TRIP #7618 ATLANTA GA,56.9,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] ONE MEDICAL*9JDB9QK,138.31,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] STARBUCKS NASHVILLE TN,5.3,debit,Coffee,Food & Drink,STARBUCKS,False
+[debit] AVALON COMMUNITIES DES:PAYMENT ID:9D5MZKB3B1 INDN:CARDHOLDER,1273.48,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] XBOX GAME PASS*EWZ02HR,74.15,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[debit] UBER TRIP SEATTLE WA,48.71,debit,Rideshare,Transportation,UBER TRIP,False
+[credit] STATE OF IN PAYROLL DES:PAYMENT ID:JMTW4GGAAK INDN:CARDHOLDER,2663.0,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] POS DEBIT SUNOCO LP5TV4,87.92,debit,Gas,Transportation,SUNOCO,False
+[debit] SQ *ONE MEDICAL SEATTLE WA,584.83,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] ASPEN DENTAL CHICAGO IL,73.89,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[debit] POS DEBIT LINCOLN PROP CO 4U84UN,1795.37,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] PEARSON EDUCATION DES:PAYMENT ID:LWS46BJBUH INDN:CARDHOLDER,978.25,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] NOTION LABS DES:DEPOSIT ID:TTH29F8PAM INDN:CARDHOLDER,36.66,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] CLASSPASS DES:DEPOSIT ID:Q5DWKMAZGH INDN:CARDHOLDER,24.44,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] STOP N SHOP #2112 SAN FRANCISCO CA,134.99,debit,Groceries,Food & Drink,STOP N SHOP,False
+[debit] KROGER INDIANAPOLIS IN,13.01,debit,Groceries,Food & Drink,KROGER,False
+[debit] PAYPAL *SUNOCO,39.76,debit,Gas,Transportation,SUNOCO,False
+[debit] DUNKIN WEST LAFAYETTE IN,22.36,debit,Coffee,Food & Drink,DUNKIN,False
+[debit] POS DEBIT CLASSPASS SCJ7AW,38.96,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] XBOX GAME PASS #3095 PHOENIX AZ,45.65,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[debit] SQ *TACO CASA #7680 CHICAGO IL,38.61,debit,Dining,Food & Drink,SQ *TACO CASA,False
+[debit] COMCAST XFINITY DES:DIRECT DEP ID:6DN03L77RT INDN:CARDHOLDER,139.75,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] AMERICAN ELECTRIC DES:DIRECT DEP ID:0DBV9N7XV8 INDN:CARDHOLDER,226.36,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] LINCOLN PROP CO DES:BILLPAY ID:SR2MBH1YP1 INDN:CARDHOLDER,1254.97,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] SOFI MONEY XFER #2321 PHOENIX AZ,419.35,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] SQ *AIRBNB WEST LAFAY IN,682.46,debit,Travel,Transportation,AIRBNB,False
+[debit] POS DEBIT SHAKE SHACK MVS7V9,29.78,debit,Dining,Food & Drink,SHAKE SHACK,False
+[debit] SQ *LABCORP INDIANAPOL IN,162.07,debit,Healthcare,Health & Wellness,LABCORP,False
+[debit] SOFI MONEY XFER*32PYRM,110.98,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] PAYPAL *KROGER,29.9,debit,Groceries,Food & Drink,KROGER,False
+[debit] POS DEBIT SHELL OIL 4ANL4Y,86.27,debit,Gas,Transportation,SHELL OIL,False
+[credit] PAYROLL DEP DES:ACH PMT ID:51S9M6NGQ7 INDN:CARDHOLDER,1581.34,credit,Income,Income,PAYROLL DEP,False
+[debit] PAYPAL *SOFIMONEYXFER,151.58,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] POS DEBIT FIVE GUYS EBL7Y1,74.15,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] CHEGG ORDER*H1XCTWBJP,1714.51,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] CLASSPASS DES:DIRECT DEP ID:8ZU3CCYDJD INDN:CARDHOLDER,44.7,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] SOUTHWEST AIRLINE*FNNYYCSHSG,331.86,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] POS DEBIT DICKS SPORTING GDS 1YCC0N,328.16,debit,Shopping,Shopping,DICKS SPORTING GDS,False
+[debit] CLASSPASS DES:DEPOSIT ID:13JBU7WZXV INDN:CARDHOLDER,45.49,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] AIRBNB*QD3PVGL85J,306.84,debit,Travel,Transportation,AIRBNB,False
+[debit] CRUNCH FITNESS DES:BILLPAY ID:JEFF8F1UFG INDN:CARDHOLDER,17.08,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] POS DEBIT ROBINHOOD FUNDING ZNJS5S,731.43,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] SUNOCO*26GU35,50.52,debit,Gas,Transportation,SUNOCO,False
+[debit] POS DEBIT SUNOCO YHXUYN,77.28,debit,Gas,Transportation,SUNOCO,False
+[debit] POS DEBIT SQ *TACO CASA TP9MGA,14.3,debit,Dining,Food & Drink,SQ *TACO CASA,False
+[debit] POS DEBIT AVALON COMMUNITIES 0TVKZC,700.25,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] T-MOBILE DES:BILLPAY ID:1GX2VTP9JA INDN:CARDHOLDER,194.7,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] PLAYSTATION NETWORK AUSTIN TX,165.37,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] NOTION LABS DES:DEPOSIT ID:YQGEFYAJ6A INDN:CARDHOLDER,34.63,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] POS DEBIT SUNOCO MW0BYP,42.94,debit,Gas,Transportation,SUNOCO,False
+[debit] CTA VENTRA COLUMBUS OH,41.89,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] SQ *SHELL OIL NASHVILLE TN,65.99,debit,Gas,Transportation,SHELL OIL,False
+[debit] POS DEBIT CTA VENTRA QKPD8W,7.96,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] SOUTHWEST AIRLINE #7143 DENVER CO,602.02,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] EVENTBRITE #9333 DENVER CO,15.68,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] WEGMANS*GBB888,86.61,debit,Groceries,Food & Drink,WEGMANS,False
+[debit] PEARSON EDUCATION DES:BILLPAY ID:H9T8CZVZP6 INDN:CARDHOLDER,678.78,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] UBER TRIP #9784 NASHVILLE TN,42.06,debit,Rideshare,Transportation,UBER TRIP,False
+[credit] FOREIGN TRANS FEE,31.9,credit,Fees,Transfers & Fees,FOREIGN TRANS FEE,False
+[debit] AMERICAN ELECTRIC*BVK9F7QJ0,39.17,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] SHELL OIL INDIANAPOLIS IN,25.68,debit,Gas,Transportation,SHELL OIL,False
+[debit] PURCHASE PLAYSTATION NETWORK AUSTIN TXUS,80.69,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] POS DEBIT SQ *TACO CASA WUG884,62.08,debit,Dining,Food & Drink,SQ *TACO CASA,False
+[debit] CTA VENTRA #993 CHICAGO IL,61.89,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] NOTION LABS DES:ACH PMT ID:21GKQX6PXT INDN:CARDHOLDER,53.34,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] POS DEBIT AVALON COMMUNITIES GERPB6,1819.84,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] FOREIGN TRANS FEE 5JAB,29.53,debit,Fees,Transfers & Fees,FOREIGN TRANS FEE,False
+[credit] PAYROLL DEP DES:BILLPAY ID:6KWND305DR INDN:CARDHOLDER,2738.89,credit,Income,Income,PAYROLL DEP,False
+[debit] PEARSON EDUCATION DES:PAYMENT ID:6NJWVNYAFS INDN:CARDHOLDER,786.36,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] PURCHASE NOTION LABS AUSTIN TXUS,26.14,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] COMCAST XFINITY DES:DIRECT DEP ID:K71KMQ1CRL INDN:CARDHOLDER,240.28,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[credit] PAYROLL DEP BROOKLYN NY,652.5,credit,Income,Income,PAYROLL DEP,False
+[debit] PURCHASE FIVE GUYS ATLANTA GAUS,89.33,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] NOTION LABS DES:PAYMENT ID:KJ0F490C15 INDN:CARDHOLDER,32.53,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] PURCHASE XBOX GAME PASS ATLANTA GAUS,125.16,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[debit] PURCHASE STOP N SHOP SEATTLE WAUS,165.38,debit,Groceries,Food & Drink,STOP N SHOP,False
+[debit] POS DEBIT XBOX GAME PASS 1C1UDH,121.21,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[debit] AMAZON WEB SERVICES DENVER CO,34.53,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] UBER TRIP*GWYSNDPES,41.12,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] IKEA #2861 WEST LAFAYETTE IN,313.91,debit,Shopping,Shopping,IKEA,False
+[debit] SQ *SHAKE SHACK DENVER CO,61.55,debit,Dining,Food & Drink,SHAKE SHACK,False
+[credit] STATE OF IN PAYROLL*1R56YLXX3,439.21,credit,Income,Income,STATE OF IN PAYROLL,False
+[credit] PAYROLL DEP*EXYXWJZ9VT,4124.18,credit,Income,Income,PAYROLL DEP,False
+[debit] NOTION LABS ATLANTA GA,25.66,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] POS DEBIT SOFI MONEY XFER SR4B2J,438.75,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] UBER TRIP NASHVILLE TN,17.99,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] PURCHASE ROBINHOOD FUNDING NASHVILLE TNUS,271.42,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] ASPEN DENTAL NASHVILLE TN,379.79,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[debit] SQ *SOFI MONEY XFER NASHVILLE TN,301.01,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] SHELL OIL #3885 NASHVILLE TN,28.02,debit,Gas,Transportation,SHELL OIL,False
+[debit] PAYPAL *STARBUCKS,8.47,debit,Coffee,Food & Drink,STARBUCKS,False
+[debit] POS DEBIT NOTION LABS 1GD39S,48.35,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] PURCHASE NETFLIX.COM ATLANTA GAUS,44.21,debit,Subscriptions,Entertainment,NETFLIX.COM,False
+[debit] SQ *WEGMANS WEST LAFAY IN,93.87,debit,Groceries,Food & Drink,WEGMANS,False
+[debit] PAYPAL *PILOTTRAVELCTR,55.07,debit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] PEARSON EDUCATION DES:DEPOSIT ID:0RU02J1QF2 INDN:CARDHOLDER,599.63,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] POS DEBIT CTA VENTRA ZDQC6K,14.35,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] SOFI MONEY XFER #9300 INDIANAPOLIS IN,302.76,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] ONE MEDICAL #6761 BROOKLYN NY,309.79,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] CLASSPASS DES:PAYMENT ID:1UV1K354RB INDN:CARDHOLDER,151.87,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] SOFI MONEY XFER*JC9ST8X,718.14,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] POS DEBIT AVALON COMMUNITIES 5UVGNL,1481.6,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] CLASSPASS DES:DEPOSIT ID:Z5FFAP774W INDN:CARDHOLDER,154.29,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] NOTION LABS*YJGB6UFZXN,30.4,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] PURCHASE COMCAST XFINITY NASHVILLE TNUS,49.32,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] SQ *UBER TRIP COLUMBUS OH,7.77,debit,Rideshare,Transportation,UBER TRIP,False
+[credit] PURCHASE STATE OF IN PAYROLL CHICAGO ILUS,2982.06,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] POS DEBIT LOWES FY1GTC,52.45,debit,Shopping,Shopping,LOWES,False
+[debit] CRUNCH FITNESS*216WA1L,143.68,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] AMERICAN ELECTRIC DES:DIRECT DEP ID:WCRNQJDVFC INDN:CARDHOLDER,249.72,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] PEARSON EDUCATION DES:ACH PMT ID:67B7AQ9R3H INDN:CARDHOLDER,362.31,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] SHELL OIL PHOENIX AZ,60.62,debit,Gas,Transportation,SHELL OIL,False
+[debit] AVALON COMMUNITIES DENVER CO,1121.0,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] PAYPAL *XBOXGAMEPASS,120.15,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[credit] CHEGG ORDER DES:ACH PMT ID:8NP368FCK2 INDN:CARDHOLDER,919.55,credit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] PURCHASE PEARSON EDUCATION BROOKLYN NYUS,639.21,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] PURCHASE CRUNCH FITNESS AUSTIN TXUS,57.5,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] POS DEBIT LABCORP KVQ226,584.35,debit,Healthcare,Health & Wellness,LABCORP,False
+[debit] DELTA AIR LINES #7380 INDIANAPOLIS IN,793.21,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] XBOX GAME PASS #2286 DENVER CO,58.83,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[debit] EVENTBRITE NASHVILLE TN,95.42,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] CRUNCH FITNESS DES:BILLPAY ID:KPVPENRM29 INDN:CARDHOLDER,90.96,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] PAYPAL *STOPNSHOP,99.01,debit,Groceries,Food & Drink,STOP N SHOP,False
+[debit] AMAZON WEB SERVICES DES:DEPOSIT ID:MVGZT8SLQR INDN:CARDHOLDER,23.82,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] LINCOLN PROP CO DES:DIRECT DEP ID:WR6EJLXZ2W INDN:CARDHOLDER,2322.61,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] LINCOLN PROP CO DES:DEPOSIT ID:4ETY2LVB5R INDN:CARDHOLDER,1732.99,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] POS DEBIT KROGER QVQYNP,45.93,debit,Groceries,Food & Drink,KROGER,False
+[debit] PURCHASE STOP N SHOP COLUMBUS OHUS,81.69,debit,Groceries,Food & Drink,STOP N SHOP,False
+[debit] SQ *EVENTBRITE DENVER CO,49.78,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] SOUTHWEST AIRLINE*R5XZ6AVCZR,1223.2,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] PLAYSTATION NETWORK #8047 SAN FRANCISCO CA,89.59,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] PILOT TRAVEL CTR #2609 SAN FRANCISCO CA,80.4,debit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] NOTION LABS*0TJXLZ94,41.33,debit,Subscriptions,Entertainment,NOTION LABS,False
+[credit] PAYROLL DEP DES:DEPOSIT ID:KA3E7SG2Y4 INDN:CARDHOLDER,873.28,credit,Income,Income,PAYROLL DEP,False
+[debit] FIVE GUYS INDIANAPOLIS IN,9.9,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] ASPEN DENTAL #8181 COLUMBUS OH,326.72,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[credit] POS DEBIT AMERICAN ELECTRIC J2P02T,178.55,credit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] LINCOLN PROP CO*P5KU44H,1546.87,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] SOFI MONEY XFER*R6G5UPQR1,498.99,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[credit] STATE OF IN PAYROLL DES:BILLPAY ID:ZWF94J358V INDN:CARDHOLDER,4095.65,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] ROBINHOOD FUNDING*FACPLGFCGG,135.33,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] LABCORP #3180 WEST LAFAYETTE IN,281.71,debit,Healthcare,Health & Wellness,LABCORP,False
+[debit] LOWES COLUMBUS OH,148.88,debit,Shopping,Shopping,LOWES,False
+[debit] AVALON COMMUNITIES DES:DIRECT DEP ID:378X03K0ZJ INDN:CARDHOLDER,1528.63,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[credit] PAYROLL DEP*53PGNB31,4156.59,credit,Income,Income,PAYROLL DEP,False
+[debit] CHEGG ORDER DES:DIRECT DEP ID:RUK67HD6E6 INDN:CARDHOLDER,1255.17,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] REI.COM NASHVILLE TN,117.04,debit,Shopping,Shopping,REI.COM,False
+[debit] HEB ONLINE*RNRCFT6,60.75,debit,Groceries,Food & Drink,HEB ONLINE,False
+[debit] CRUNCH FITNESS DES:PAYMENT ID:URGD1BR954 INDN:CARDHOLDER,102.76,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] COMCAST XFINITY DES:PAYMENT ID:HHXTZMGE8M INDN:CARDHOLDER,232.85,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] CRUNCH FITNESS DES:DEPOSIT ID:R48W2ZTSMB INDN:CARDHOLDER,16.84,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] POS DEBIT CLASSPASS N0VQTL,34.81,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] POS DEBIT SUNOCO TNTJXL,55.97,debit,Gas,Transportation,SUNOCO,False
+[debit] NETFLIX.COM DES:DEPOSIT ID:KR01F7LK1F INDN:CARDHOLDER,58.04,debit,Subscriptions,Entertainment,NETFLIX.COM,False
+[debit] T-MOBILE*3HBNX3,104.63,debit,Utilities,Bills & Housing,T-MOBILE,False
+[credit] STATE OF IN PAYROLL INDIANAPOLIS IN,1098.58,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] AVALON COMMUNITIES*TL6896,981.09,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[credit] CHEGG ORDER DES:PAYMENT ID:U9DXARUTUQ INDN:CARDHOLDER,1327.76,credit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] POS DEBIT SOUTHWEST AIRLINE 389VRA,418.18,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] AMAZON WEB SERVICES DES:DIRECT DEP ID:LH0MMRVDK4 INDN:CARDHOLDER,44.85,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[credit] PAYROLL DEP COLUMBUS OH,341.63,credit,Income,Income,PAYROLL DEP,False
+[debit] SQ *HEB ONLINE BROOKLYN NY,18.12,debit,Groceries,Food & Drink,HEB ONLINE,False
+[debit] UBER TRIP*4W11FLDV,21.41,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] POS DEBIT STARBUCKS JHHDD0,16.1,debit,Coffee,Food & Drink,STARBUCKS,False
+[debit] AVALON COMMUNITIES DES:BILLPAY ID:13TDEVB9DC INDN:CARDHOLDER,2185.42,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] AMAZON WEB SERVICES SEATTLE WA,43.29,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] AVALON COMMUNITIES DES:BILLPAY ID:N2F2GUNEJ6 INDN:CARDHOLDER,994.82,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] ROBINHOOD FUNDING #7481 DENVER CO,827.27,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] DUNKIN*T0X5F9W8ZF,7.15,debit,Coffee,Food & Drink,DUNKIN,False
+[debit] POS DEBIT CHEGG ORDER WKWLXD,609.52,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] PURCHASE NETFLIX.COM DENVER COUS,44.81,debit,Subscriptions,Entertainment,NETFLIX.COM,False
+[debit] SUNOCO #7834 SEATTLE WA,28.85,debit,Gas,Transportation,SUNOCO,False
+[debit] UBER TRIP #803 SEATTLE WA,33.08,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] PURCHASE LOWES COLUMBUS OHUS,318.57,debit,Shopping,Shopping,LOWES,False
+[credit] POS DEBIT CHEGG ORDER RPYSTF,787.19,credit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] LINCOLN PROP CO*4CRQX4TRH4,1456.13,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] POS DEBIT SOFI MONEY XFER Z21MXZ,57.16,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] PAYPAL *SOUTHWESTAIRLINE,1226.57,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] AMAZON WEB SERVICES DES:DIRECT DEP ID:7AD20201FJ INDN:CARDHOLDER,18.01,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] PURCHASE AIRBNB WEST LAFAYETTE INUS,1123.42,debit,Travel,Transportation,AIRBNB,False
+[credit] LABCORP DENVER CO,225.6,credit,Healthcare,Health & Wellness,LABCORP,False
+[debit] POS DEBIT ONE MEDICAL Y6GCWV,229.92,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] PAYPAL *IKEA,68.36,debit,Shopping,Shopping,IKEA,False
+[debit] DELTA AIR LINES COLUMBUS OH,800.93,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] PURCHASE ASPEN DENTAL WEST LAFAYETTE INUS,601.75,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[debit] PURCHASE CRUNCH FITNESS BROOKLYN NYUS,28.07,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] POS DEBIT BIGGBY COFFEE 8WG2DH,21.52,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] BIGGBY COFFEE #4476 COLUMBUS OH,12.26,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] PEARSON EDUCATION NASHVILLE TN,1115.0,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] POS DEBIT CRUNCH FITNESS 0SHCNQ,76.91,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] PAYPAL *FIVEGUYS,88.97,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] PAPER STATEMENT FEE 5J30,21.87,debit,Fees,Transfers & Fees,PAPER STATEMENT FEE,False
+[debit] COMCAST XFINITY DES:ACH PMT ID:9A8ARLFQZ7 INDN:CARDHOLDER,308.58,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] SQ *SUNOCO SEATTLE WA,23.3,debit,Gas,Transportation,SUNOCO,False
+[debit] NETFLIX.COM*FFM4HUN8T,31.4,debit,Subscriptions,Entertainment,NETFLIX.COM,False
+[debit] SQ *REI.COM ATLANTA GA,298.23,debit,Shopping,Shopping,REI.COM,False
+[debit] LINCOLN PROP CO DES:DEPOSIT ID:61HLFYNQT0 INDN:CARDHOLDER,1600.82,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] NOTION LABS DES:BILLPAY ID:VDM5AB97CE INDN:CARDHOLDER,59.81,debit,Subscriptions,Entertainment,NOTION LABS,False
+[credit] PURCHASE EVENTBRITE CHICAGO ILUS,78.24,credit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] POS DEBIT LOWES SGVKCV,428.94,debit,Shopping,Shopping,LOWES,False
+[debit] SHELL OIL #3951 COLUMBUS OH,68.66,debit,Gas,Transportation,SHELL OIL,False
+[debit] SQ *DICKS SPORTING GDS DENVER CO,311.35,debit,Shopping,Shopping,DICKS SPORTING GDS,False
+[debit] POS DEBIT CLASSPASS LMKU1Z,92.86,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] PEARSON EDUCATION PHOENIX AZ,1012.37,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] AMERICAN ELECTRIC*DRF5ZU,299.18,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] KROGER*S709MSG,44.07,debit,Groceries,Food & Drink,KROGER,False
+[debit] SOUTHWEST AIRLINE*BVZEM27FN,491.6,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[credit] STATE OF IN PAYROLL DES:ACH PMT ID:0EH3QAJQCF INDN:CARDHOLDER,911.36,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] POS DEBIT AIRBNB XXSLQK,86.12,debit,Travel,Transportation,AIRBNB,False
+[debit] DELTA AIR LINES*PX8E2P,1045.92,debit,Travel,Transportation,DELTA AIR LINES,False
+[credit] STATE OF IN PAYROLL DES:PAYMENT ID:AKMRM8KWSK INDN:CARDHOLDER,645.36,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] FOREIGN TRANS FEE S2RC,28.44,debit,Fees,Transfers & Fees,FOREIGN TRANS FEE,False
+[debit] FIVE GUYS*VEVJQYZ63,69.46,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] SQ *WEGMANS SAN FRANCI CA,176.9,debit,Groceries,Food & Drink,WEGMANS,False
+[credit] PAYROLL DEP DES:ACH PMT ID:AKYZ7T9RD3 INDN:CARDHOLDER,1685.05,credit,Income,Income,PAYROLL DEP,False
+[debit] PURCHASE AMERICAN ELECTRIC SEATTLE WAUS,183.75,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] CRUNCH FITNESS DES:ACH PMT ID:SZ952LTS47 INDN:CARDHOLDER,113.96,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] XBOX GAME PASS #9292 DENVER CO,74.74,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[debit] EVENTBRITE SEATTLE WA,152.29,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] PURCHASE KROGER DENVER COUS,22.21,debit,Groceries,Food & Drink,KROGER,False
+[debit] POS DEBIT LINCOLN PROP CO W8F5Y7,2329.39,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] POS DEBIT BIGGBY COFFEE N6VYK6,4.19,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[credit] STATE OF IN PAYROLL DES:BILLPAY ID:ANC0N6Z2X6 INDN:CARDHOLDER,3450.58,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] STARBUCKS*3VKA9P4,20.47,debit,Coffee,Food & Drink,STARBUCKS,False
+[debit] BIGGBY COFFEE #8031 CHICAGO IL,14.5,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] POS DEBIT CRUNCH FITNESS NKJ181,136.52,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] PURCHASE WEGMANS WEST LAFAYETTE INUS,200.63,debit,Groceries,Food & Drink,WEGMANS,False
+[debit] LINCOLN PROP CO DES:DIRECT DEP ID:X1Q9ZD8JXL INDN:CARDHOLDER,725.53,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] POS DEBIT CTA VENTRA F2VGLX,53.82,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] POS DEBIT SHELL OIL 9PTJVV,55.46,debit,Gas,Transportation,SHELL OIL,False
+[debit] SHAKE SHACK #8295 SAN FRANCISCO CA,40.12,debit,Dining,Food & Drink,SHAKE SHACK,False
+[debit] POS DEBIT CTA VENTRA 8QW0JU,47.7,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] KROGER CHICAGO IL,190.51,debit,Groceries,Food & Drink,KROGER,False
+[debit] CHEGG ORDER DES:DIRECT DEP ID:PU2644EBL4 INDN:CARDHOLDER,749.84,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] CRUNCH FITNESS DES:ACH PMT ID:VB63ZMG25V INDN:CARDHOLDER,10.08,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] SOFI MONEY XFER #6364 ATLANTA GA,707.53,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] FOREIGN TRANS FEE WP0P,32.39,debit,Fees,Transfers & Fees,FOREIGN TRANS FEE,False
+[debit] PILOT TRAVEL CTR WEST LAFAYETTE IN,60.06,debit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] AIRBNB*GXBB8AUZ,489.26,debit,Travel,Transportation,AIRBNB,False
+[debit] SQ *SUNOCO ATLANTA GA,46.74,debit,Gas,Transportation,SUNOCO,False
+[debit] POS DEBIT PEARSON EDUCATION 9ZMEPV,444.5,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] FIVE GUYS*BT2PBHPX,68.56,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] AVALON COMMUNITIES DES:BILLPAY ID:ZPPXT9SFM6 INDN:CARDHOLDER,1152.73,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] SOFI MONEY XFER #1406 COLUMBUS OH,320.9,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] CTA VENTRA NASHVILLE TN,10.13,debit,Rideshare,Transportation,CTA VENTRA,False
+[credit] STATE OF IN PAYROLL DES:ACH PMT ID:XQK5QYGN6N INDN:CARDHOLDER,784.5,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] PAPER STATEMENT FEE NHS3,4.51,debit,Fees,Transfers & Fees,PAPER STATEMENT FEE,False
+[debit] DELTA AIR LINES SAN FRANCISCO CA,1151.83,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] UBER EATS PHOENIX AZ,75.38,debit,Dining,Food & Drink,UBER EATS,False
+[debit] PAYPAL *UBERTRIP,57.44,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] BIGGBY COFFEE SEATTLE WA,12.26,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] SQ *BIGGBY COFFEE BROOKLYN NY,4.31,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] SHELL OIL*A4EWAY,28.07,debit,Gas,Transportation,SHELL OIL,False
+[debit] STARBUCKS PHOENIX AZ,22.61,debit,Coffee,Food & Drink,STARBUCKS,False
+[debit] POS DEBIT LOWES 2DYHAV,282.93,debit,Shopping,Shopping,LOWES,False
+[debit] CLASSPASS DES:PAYMENT ID:ZXZFZACXK7 INDN:CARDHOLDER,148.92,debit,Fitness,Health & Wellness,CLASSPASS,False
+[credit] PAYROLL DEP*25LBX0Z,3631.23,credit,Income,Income,PAYROLL DEP,False
+[debit] DELTA AIR LINES*3AR2VNJE,307.27,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] SQ *PILOT TRAVEL CTR COLUMBUS OH,87.57,debit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] CHEGG ORDER DES:PAYMENT ID:TSUUYQ1ZPF INDN:CARDHOLDER,179.07,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] CLASSPASS*FGRRY93B,36.54,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] COMCAST XFINITY CHICAGO IL,200.3,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] T-MOBILE DES:ACH PMT ID:NVUVRJ7Y3A INDN:CARDHOLDER,239.03,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] CHEGG ORDER DES:PAYMENT ID:JRKTU62MYW INDN:CARDHOLDER,525.9,debit,Education,Bills & Housing,CHEGG ORDER,False
+[credit] PURCHASE PEARSON EDUCATION ATLANTA GAUS,269.17,credit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] STARBUCKS #2306 ATLANTA GA,2.97,debit,Coffee,Food & Drink,STARBUCKS,False
+[debit] PLAYSTATION NETWORK*X2YDMC16,161.44,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] AMAZON WEB SERVICES*LXKD1DVE1Y,49.42,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] SQ *SOFI MONEY XFER ATLANTA GA,887.78,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] SQ *TACO CASA #2103 NASHVILLE TN,19.43,debit,Dining,Food & Drink,SQ *TACO CASA,False
+[debit] T-MOBILE DES:DIRECT DEP ID:D66KYLF3MC INDN:CARDHOLDER,71.57,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] CRUNCH FITNESS BROOKLYN NY,50.15,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[credit] PAYROLL DEP NASHVILLE TN,3012.77,credit,Income,Income,PAYROLL DEP,False
+[debit] UBER TRIP PHOENIX AZ,35.45,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] LINCOLN PROP CO DES:DIRECT DEP ID:2H7E5LA9B9 INDN:CARDHOLDER,881.48,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] PURCHASE PEARSON EDUCATION COLUMBUS OHUS,992.84,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] NOTION LABS DES:DIRECT DEP ID:FLVT2PW2Y7 INDN:CARDHOLDER,39.87,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] SQ *UBER EATS SEATTLE WA,33.85,debit,Dining,Food & Drink,UBER EATS,False
+[debit] AMAZON WEB SERVICES ATLANTA GA,22.55,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] PEARSON EDUCATION DES:ACH PMT ID:WPUS801M2U INDN:CARDHOLDER,336.04,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[credit] SQ *PILOT TRAVEL CTR INDIANAPOL IN,40.67,credit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] PAYPAL *LOWES,325.17,debit,Shopping,Shopping,LOWES,False
+[debit] REI.COM*S397B4WQ,220.95,debit,Shopping,Shopping,REI.COM,False
+[debit] NOTION LABS*99VJLQ8L,53.92,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] NETFLIX.COM SEATTLE WA,50.7,debit,Subscriptions,Entertainment,NETFLIX.COM,False
+[credit] PAPER STATEMENT FEE,35.85,credit,Fees,Transfers & Fees,PAPER STATEMENT FEE,False
+[credit] STATE OF IN PAYROLL DES:PAYMENT ID:HAJZJY0HX1 INDN:CARDHOLDER,1449.94,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] PURCHASE UBER TRIP AUSTIN TXUS,14.68,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] SQ *PILOT TRAVEL CTR WEST LAFAY IN,31.2,debit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] CLASSPASS DES:BILLPAY ID:RRQ9JS4V6X INDN:CARDHOLDER,97.72,debit,Fitness,Health & Wellness,CLASSPASS,False
+[credit] CLASSPASS DES:DIRECT DEP ID:KYT7AB014K INDN:CARDHOLDER,56.97,credit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] POS DEBIT ONE MEDICAL B474V9,59.37,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] POS DEBIT SUNOCO 64YH16,63.98,debit,Gas,Transportation,SUNOCO,False
+[debit] PLAYSTATION NETWORK*71JBUKY,21.95,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] ONE MEDICAL*YQCC49,342.94,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[credit] STATE OF IN PAYROLL DES:ACH PMT ID:6NGTSYNQH5 INDN:CARDHOLDER,255.67,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] LINCOLN PROP CO DES:DEPOSIT ID:01404K7TWJ INDN:CARDHOLDER,1777.05,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] POS DEBIT ONE MEDICAL RQ2298,148.55,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] SQ *FIVE GUYS SEATTLE WA,9.67,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] FIVE GUYS #9667 WEST LAFAYETTE IN,48.35,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] STARBUCKS #7900 CHICAGO IL,15.84,debit,Coffee,Food & Drink,STARBUCKS,False
+[debit] XBOX GAME PASS AUSTIN TX,42.88,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[debit] CHEGG ORDER DES:DIRECT DEP ID:9N398B7DDB INDN:CARDHOLDER,1689.62,debit,Education,Bills & Housing,CHEGG ORDER,False
+[credit] STATE OF IN PAYROLL DES:DIRECT DEP ID:4SKMRVBZT5 INDN:CARDHOLDER,3443.9,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] SHELL OIL #8859 PHOENIX AZ,19.58,debit,Gas,Transportation,SHELL OIL,False
+[debit] PURCHASE AVALON COMMUNITIES SAN FRANCISCO CAUS,2323.77,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] AMAZON WEB SERVICES*EU6Z2G,10.64,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] POS DEBIT COMCAST XFINITY T28328,263.78,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[credit] PURCHASE IKEA WEST LAFAYETTE INUS,433.43,credit,Shopping,Shopping,IKEA,False
+[debit] AMAZON WEB SERVICES DES:BILLPAY ID:3P0U0GVKA4 INDN:CARDHOLDER,15.3,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] PLAYSTATION NETWORK*V6SKFM,120.38,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] LINCOLN PROP CO*A7BRHR4F,1925.16,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] POS DEBIT PILOT TRAVEL CTR 3Q29CG,86.88,debit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] POS DEBIT SUNOCO 8VTE5U,43.34,debit,Gas,Transportation,SUNOCO,False
+[debit] POS DEBIT NETFLIX.COM R7AFX8,56.59,debit,Subscriptions,Entertainment,NETFLIX.COM,False
+[debit] SUNOCO*FT0L6KW,28.85,debit,Gas,Transportation,SUNOCO,False
+[debit] PEARSON EDUCATION*SDYRE7,739.06,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] CHEGG ORDER DES:PAYMENT ID:6CJ1UMS0QB INDN:CARDHOLDER,374.86,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] CHEGG ORDER DES:PAYMENT ID:72RXZVC6UF INDN:CARDHOLDER,342.34,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] SUNOCO #8387 AUSTIN TX,37.67,debit,Gas,Transportation,SUNOCO,False
+[debit] SQ *HEB ONLINE SAN FRANCI CA,188.49,debit,Groceries,Food & Drink,HEB ONLINE,False
+[debit] POS DEBIT DELTA AIR LINES Q4T3FM,97.07,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] FIVE GUYS #5808 BROOKLYN NY,71.35,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] SQ *EVENTBRITE ATLANTA GA,89.79,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] AVALON COMMUNITIES ATLANTA GA,1982.25,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] ROBINHOOD FUNDING*1ZNT37F,378.93,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] PURCHASE DUNKIN INDIANAPOLIS INUS,7.11,debit,Coffee,Food & Drink,DUNKIN,False
+[debit] POS DEBIT SOFI MONEY XFER HFH877,39.14,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] NETFLIX.COM DES:DIRECT DEP ID:39P1E6JPY4 INDN:CARDHOLDER,15.48,debit,Subscriptions,Entertainment,NETFLIX.COM,False
+[debit] UBER EATS INDIANAPOLIS IN,9.15,debit,Dining,Food & Drink,UBER EATS,False
+[debit] AVALON COMMUNITIES DES:PAYMENT ID:M06ABLM9MT INDN:CARDHOLDER,1060.53,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] SQ *PLAYSTATION NETWORK WEST LAFAY IN,77.56,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] PURCHASE STARBUCKS INDIANAPOLIS INUS,3.58,debit,Coffee,Food & Drink,STARBUCKS,False
+[debit] PEARSON EDUCATION ATLANTA GA,349.0,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] PURCHASE CRUNCH FITNESS NASHVILLE TNUS,42.58,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] DELTA AIR LINES*3Z1NDU29XG,1114.07,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] SQ *XBOX GAME PASS SEATTLE WA,20.72,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[debit] POS DEBIT SUNOCO HYTN36,47.11,debit,Gas,Transportation,SUNOCO,False
+[debit] POS DEBIT BIGGBY COFFEE 0NNH85,20.86,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] PURCHASE DUNKIN DENVER COUS,7.66,debit,Coffee,Food & Drink,DUNKIN,False
+[debit] PURCHASE STOP N SHOP PHOENIX AZUS,123.81,debit,Groceries,Food & Drink,STOP N SHOP,False
+[debit] PURCHASE EVENTBRITE DENVER COUS,172.19,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] WEGMANS INDIANAPOLIS IN,19.66,debit,Groceries,Food & Drink,WEGMANS,False
+[debit] PILOT TRAVEL CTR #7180 SAN FRANCISCO CA,25.79,debit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] POS DEBIT DUNKIN C5C4ZC,4.86,debit,Coffee,Food & Drink,DUNKIN,False
+[credit] PAYROLL DEP DES:BILLPAY ID:34WVXZ9C0P INDN:CARDHOLDER,3956.57,credit,Income,Income,PAYROLL DEP,False
+[debit] SQ *DELTA AIR LINES SAN FRANCI CA,257.97,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] PURCHASE SQ *TACO CASA INDIANAPOLIS INUS,30.17,debit,Dining,Food & Drink,SQ *TACO CASA,False
+[debit] LINCOLN PROP CO DES:DEPOSIT ID:CSUAES2N7V INDN:CARDHOLDER,1620.58,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] PLAYSTATION NETWORK*VDK6GDAQ,152.7,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] PAPER STATEMENT FEE 7870,29.74,debit,Fees,Transfers & Fees,PAPER STATEMENT FEE,False
+[credit] PAYROLL DEP*E8YZDP7ZHW,1490.04,credit,Income,Income,PAYROLL DEP,False
+[credit] STATE OF IN PAYROLL DES:ACH PMT ID:LMKEDG0QMP INDN:CARDHOLDER,3672.32,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] POS DEBIT IKEA QZSVCC,319.43,debit,Shopping,Shopping,IKEA,False
+[credit] POS DEBIT PAYROLL DEP 12YPTE,134.37,credit,Income,Income,PAYROLL DEP,False
+[debit] PURCHASE DELTA AIR LINES NASHVILLE TNUS,614.47,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] DICKS SPORTING GDS*S4FKUH,329.1,debit,Shopping,Shopping,DICKS SPORTING GDS,False
+[debit] PURCHASE UBER TRIP NASHVILLE TNUS,28.86,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] AVALON COMMUNITIES*65Y1VC1CM,887.67,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] POS DEBIT SOFI MONEY XFER 0VHKE2,193.37,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] PURCHASE SOFI MONEY XFER CHICAGO ILUS,636.25,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] NOTION LABS*XKVHB04K,42.32,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] SOFI MONEY XFER #7800 ATLANTA GA,866.41,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] WEGMANS #6200 DENVER CO,131.02,debit,Groceries,Food & Drink,WEGMANS,False
+[debit] UBER TRIP COLUMBUS OH,58.3,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] PAPER STATEMENT FEE EA6Y,31.82,debit,Fees,Transfers & Fees,PAPER STATEMENT FEE,False
+[debit] BIGGBY COFFEE*0XP3CN,13.78,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] SQ *FIVE GUYS WEST LAFAY IN,63.95,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] LOWES*WAFLEW,254.18,debit,Shopping,Shopping,LOWES,False
+[credit] POS DEBIT PAYROLL DEP 4EX8A2,3673.7,credit,Income,Income,PAYROLL DEP,False
+[debit] PURCHASE SOFI MONEY XFER WEST LAFAYETTE INUS,679.81,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] PAYPAL *LABCORP,551.28,debit,Healthcare,Health & Wellness,LABCORP,False
+[debit] DELTA AIR LINES INDIANAPOLIS IN,67.08,debit,Travel,Transportation,DELTA AIR LINES,False
+[credit] PURCHASE SHELL OIL AUSTIN TXUS,21.74,credit,Gas,Transportation,SHELL OIL,False
+[debit] POS DEBIT AMERICAN ELECTRIC YH9EAZ,264.59,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] CHEGG ORDER DES:DIRECT DEP ID:5TFC43YBWA INDN:CARDHOLDER,984.97,debit,Education,Bills & Housing,CHEGG ORDER,False
+[credit] PEARSON EDUCATION DES:DEPOSIT ID:TYQK05FBBN INDN:CARDHOLDER,345.52,credit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] SQ *ONE MEDICAL NASHVILLE TN,91.02,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] LINCOLN PROP CO INDIANAPOLIS IN,1457.25,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] POS DEBIT PEARSON EDUCATION 0YPP4M,965.94,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] POS DEBIT CRUNCH FITNESS HZ77EP,41.49,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] CRUNCH FITNESS DES:PAYMENT ID:580K83TDVH INDN:CARDHOLDER,129.26,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] FIVE GUYS #1901 BROOKLYN NY,7.15,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] HEB ONLINE #4240 WEST LAFAYETTE IN,10.1,debit,Groceries,Food & Drink,HEB ONLINE,False
+[debit] T-MOBILE DES:DIRECT DEP ID:16K5NL1R5P INDN:CARDHOLDER,293.54,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] POS DEBIT ASPEN DENTAL BR5TYA,485.26,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[debit] REI.COM*ZLBWTWFEVE,155.64,debit,Shopping,Shopping,REI.COM,False
+[debit] AMERICAN ELECTRIC DES:DEPOSIT ID:Z9819NJ5ZS INDN:CARDHOLDER,38.51,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] EVENTBRITE #497 NASHVILLE TN,52.78,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] PURCHASE CLASSPASS CHICAGO ILUS,50.93,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] CTA VENTRA BROOKLYN NY,16.03,debit,Rideshare,Transportation,CTA VENTRA,False
+[credit] PURCHASE STATE OF IN PAYROLL WEST LAFAYETTE INUS,3318.99,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] UBER TRIP #5610 SEATTLE WA,30.11,debit,Rideshare,Transportation,UBER TRIP,False
+[credit] PAYPAL *UBEREATS,83.12,credit,Dining,Food & Drink,UBER EATS,False
+[debit] PURCHASE WEGMANS INDIANAPOLIS INUS,23.41,debit,Groceries,Food & Drink,WEGMANS,False
+[debit] AVALON COMMUNITIES SEATTLE WA,924.44,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] POS DEBIT LINCOLN PROP CO RQVP58,1518.01,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] PILOT TRAVEL CTR CHICAGO IL,61.1,debit,Gas,Transportation,PILOT TRAVEL CTR,False
+[credit] PURCHASE STARBUCKS DENVER COUS,14.21,credit,Coffee,Food & Drink,STARBUCKS,False
+[credit] POS DEBIT STATE OF IN PAYROLL 6300XM,838.27,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] POS DEBIT CRUNCH FITNESS RV40Z0,159.68,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] NOTION LABS DENVER CO,25.73,debit,Subscriptions,Entertainment,NOTION LABS,False
+[credit] FIVE GUYS AUSTIN TX,28.88,credit,Dining,Food & Drink,FIVE GUYS,False
+[debit] POS DEBIT DICKS SPORTING GDS WG0156,448.76,debit,Shopping,Shopping,DICKS SPORTING GDS,False
+[debit] PAPER STATEMENT FEE 16DY,11.79,debit,Fees,Transfers & Fees,PAPER STATEMENT FEE,False
+[debit] SQ *ONE MEDICAL SAN FRANCI CA,556.88,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] PURCHASE LABCORP SAN FRANCISCO CAUS,244.89,debit,Healthcare,Health & Wellness,LABCORP,False
+[debit] PEARSON EDUCATION DES:DEPOSIT ID:875QNTT4HK INDN:CARDHOLDER,583.44,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[credit] DUNKIN*87YKMKD7,2.92,credit,Coffee,Food & Drink,DUNKIN,False
+[debit] LOWES #1227 SAN FRANCISCO CA,355.05,debit,Shopping,Shopping,LOWES,False
+[debit] UBER TRIP #9693 AUSTIN TX,30.94,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] COMCAST XFINITY DES:DEPOSIT ID:YPTNCS7FW6 INDN:CARDHOLDER,193.77,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] NOTION LABS DES:PAYMENT ID:JM1AGNC074 INDN:CARDHOLDER,51.21,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] PEARSON EDUCATION DES:PAYMENT ID:ZQF4F7L81J INDN:CARDHOLDER,547.47,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] HEB ONLINE WEST LAFAYETTE IN,20.36,debit,Groceries,Food & Drink,HEB ONLINE,False
+[debit] EVENTBRITE*YD3QT6XRES,104.51,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] POS DEBIT AVALON COMMUNITIES 1YSMJG,1809.68,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] SQ *BIGGBY COFFEE ATLANTA GA,19.65,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] SQ *TACO CASA*EZ4ZF6EH,68.58,debit,Dining,Food & Drink,SQ *TACO CASA,False
+[debit] SOUTHWEST AIRLINE*GSFDWC9SRM,310.01,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] PURCHASE AMAZON WEB SERVICES COLUMBUS OHUS,4.42,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] SUNOCO*4BPKX1,30.57,debit,Gas,Transportation,SUNOCO,False
+[credit] STATE OF IN PAYROLL NASHVILLE TN,1181.31,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] POS DEBIT NOTION LABS M3BM49,51.88,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] NOTION LABS DES:BILLPAY ID:PW09FAM8KB INDN:CARDHOLDER,11.72,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] DELTA AIR LINES*VEK3H84EX5,880.68,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] LABCORP*RL529G72,540.71,debit,Healthcare,Health & Wellness,LABCORP,False
+[debit] FOREIGN TRANS FEE CTQV,5.59,debit,Fees,Transfers & Fees,FOREIGN TRANS FEE,False
+[debit] EVENTBRITE COLUMBUS OH,60.08,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] ONE MEDICAL #4213 CHICAGO IL,410.48,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] UBER EATS*2AU4TJ,55.07,debit,Dining,Food & Drink,UBER EATS,False
+[debit] POS DEBIT CHEGG ORDER NNTQER,797.88,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] POS DEBIT PILOT TRAVEL CTR XBT7W3,14.24,debit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] COMCAST XFINITY*5ZNCS36E,247.38,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] SQ *CTA VENTRA INDIANAPOL IN,45.21,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] BIGGBY COFFEE*40LV000D,7.77,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[credit] POS DEBIT PAYROLL DEP SALAM4,1847.7,credit,Income,Income,PAYROLL DEP,False
+[debit] SQ *STARBUCKS DENVER CO,19.27,debit,Coffee,Food & Drink,STARBUCKS,False
+[debit] CHEGG ORDER DES:DIRECT DEP ID:M2VJRSKUNB INDN:CARDHOLDER,335.23,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] STARBUCKS*0X2TX4A,7.87,debit,Coffee,Food & Drink,STARBUCKS,False
+[debit] AVALON COMMUNITIES DES:DEPOSIT ID:Y90LXXPY6P INDN:CARDHOLDER,875.4,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] POS DEBIT SHAKE SHACK H4XSKQ,69.59,debit,Dining,Food & Drink,SHAKE SHACK,False
+[debit] CLASSPASS*9HJWHRU1,158.16,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] SUNOCO*TGL685,53.18,debit,Gas,Transportation,SUNOCO,False
+[credit] SQ *UBER EATS DENVER CO,37.39,credit,Dining,Food & Drink,UBER EATS,False
+[debit] PILOT TRAVEL CTR*5Q9HGF1NU,21.01,debit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] CHEGG ORDER DES:DEPOSIT ID:JE5CHK1TTN INDN:CARDHOLDER,1752.86,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] SQ *SUNOCO BROOKLYN NY,38.8,debit,Gas,Transportation,SUNOCO,False
+[debit] PAYPAL *AIRBNB,214.76,debit,Travel,Transportation,AIRBNB,False
+[credit] POS DEBIT PAYROLL DEP XBH3XX,4053.91,credit,Income,Income,PAYROLL DEP,False
+[debit] SHAKE SHACK SAN FRANCISCO CA,31.14,debit,Dining,Food & Drink,SHAKE SHACK,False
+[debit] PURCHASE UBER TRIP INDIANAPOLIS INUS,49.99,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] PURCHASE CHEGG ORDER COLUMBUS OHUS,1425.14,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] PURCHASE STOP N SHOP ATLANTA GAUS,168.46,debit,Groceries,Food & Drink,STOP N SHOP,False
+[debit] KROGER*U4V64V7,10.02,debit,Groceries,Food & Drink,KROGER,False
+[debit] T-MOBILE*1UN1139,50.38,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] SQ *SOFI MONEY XFER BROOKLYN NY,504.02,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] LABCORP*K9P43Y,282.95,debit,Healthcare,Health & Wellness,LABCORP,False
+[debit] CLASSPASS*9LL8B2RM,126.74,debit,Fitness,Health & Wellness,CLASSPASS,False
+[credit] PAYROLL DEP DES:DEPOSIT ID:5KDB5SBY7X INDN:CARDHOLDER,4119.86,credit,Income,Income,PAYROLL DEP,False
+[debit] SQ *LABCORP BROOKLYN NY,525.78,debit,Healthcare,Health & Wellness,LABCORP,False
+[debit] LOWES #864 INDIANAPOLIS IN,325.25,debit,Shopping,Shopping,LOWES,False
+[debit] CTA VENTRA #6401 NASHVILLE TN,36.89,debit,Rideshare,Transportation,CTA VENTRA,False
+[credit] PAYROLL DEP DES:DEPOSIT ID:YWHXKHSQJY INDN:CARDHOLDER,2518.81,credit,Income,Income,PAYROLL DEP,False
+[debit] T-MOBILE DES:DEPOSIT ID:0F5RA4SWNK INDN:CARDHOLDER,257.01,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] LINCOLN PROP CO DES:ACH PMT ID:RAB66X0D0P INDN:CARDHOLDER,1610.29,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] SQ *PILOT TRAVEL CTR AUSTIN TX,47.53,debit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] PURCHASE BIGGBY COFFEE SAN FRANCISCO CAUS,18.69,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] ROBINHOOD FUNDING #7615 WEST LAFAYETTE IN,518.52,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] PURCHASE UBER EATS BROOKLYN NYUS,94.46,debit,Dining,Food & Drink,UBER EATS,False
+[debit] AIRBNB #1115 DENVER CO,295.44,debit,Travel,Transportation,AIRBNB,False
+[debit] POS DEBIT AMERICAN ELECTRIC SWG14N,106.38,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] PURCHASE PEARSON EDUCATION WEST LAFAYETTE INUS,1203.46,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] REI.COM #4512 AUSTIN TX,268.36,debit,Shopping,Shopping,REI.COM,False
+[credit] STATE OF IN PAYROLL DES:PAYMENT ID:GB3RJLSYLL INDN:CARDHOLDER,1962.59,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] LOWES #3625 BROOKLYN NY,114.73,debit,Shopping,Shopping,LOWES,False
+[debit] SOFI MONEY XFER #6740 SEATTLE WA,779.12,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] PURCHASE SOUTHWEST AIRLINE BROOKLYN NYUS,1174.43,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] LABCORP #6034 DENVER CO,345.37,debit,Healthcare,Health & Wellness,LABCORP,False
+[debit] COMCAST XFINITY DES:ACH PMT ID:E36W50RC1B INDN:CARDHOLDER,205.77,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] SOUTHWEST AIRLINE #8485 AUSTIN TX,1093.37,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] CLASSPASS DES:DIRECT DEP ID:4R78Z2CTCK INDN:CARDHOLDER,16.56,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] DICKS SPORTING GDS*J0G0A8K8G,260.45,debit,Shopping,Shopping,DICKS SPORTING GDS,False
+[debit] BIGGBY COFFEE ATLANTA GA,22.9,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] PILOT TRAVEL CTR #3454 SEATTLE WA,34.51,debit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] UBER EATS #8091 SAN FRANCISCO CA,27.14,debit,Dining,Food & Drink,UBER EATS,False
+[debit] CRUNCH FITNESS DES:ACH PMT ID:S5RYSB7674 INDN:CARDHOLDER,71.62,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] KROGER*KMYAFSXCF,25.71,debit,Groceries,Food & Drink,KROGER,False
+[debit] XBOX GAME PASS #560 COLUMBUS OH,99.81,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[debit] POS DEBIT EVENTBRITE QMVAR2,63.01,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] POS DEBIT NOTION LABS R0QE9S,26.49,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] PAYPAL *BIGGBYCOFFEE,14.26,debit,Coffee,Food & Drink,BIGGBY COFFEE,False
+[debit] SHAKE SHACK #7948 COLUMBUS OH,55.79,debit,Dining,Food & Drink,SHAKE SHACK,False
+[debit] POS DEBIT AMAZON WEB SERVICES 97RUVT,10.33,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] DELTA AIR LINES*6HDVHZ0,287.9,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] CHEGG ORDER DES:PAYMENT ID:A8BCRQVXWA INDN:CARDHOLDER,1060.84,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] SQ *XBOX GAME PASS BROOKLYN NY,173.97,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[debit] PURCHASE SOFI MONEY XFER INDIANAPOLIS INUS,828.82,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] SQ *PILOT TRAVEL CTR DENVER CO,48.31,debit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] CTA VENTRA*K7XCJP,37.61,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] IKEA #3861 PHOENIX AZ,174.73,debit,Shopping,Shopping,IKEA,False
+[debit] PEARSON EDUCATION DES:ACH PMT ID:NU43DH58SC INDN:CARDHOLDER,103.68,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] UBER EATS CHICAGO IL,44.82,debit,Dining,Food & Drink,UBER EATS,False
+[debit] REI.COM*SSKCBV,214.46,debit,Shopping,Shopping,REI.COM,False
+[debit] PURCHASE AVALON COMMUNITIES CHICAGO ILUS,914.89,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] XBOX GAME PASS BROOKLYN NY,175.59,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[debit] UBER TRIP #9193 WEST LAFAYETTE IN,56.5,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] SQ *STARBUCKS AUSTIN TX,3.76,debit,Coffee,Food & Drink,STARBUCKS,False
+[debit] SQ *SOUTHWEST AIRLINE PHOENIX AZ,1122.78,debit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] CTA VENTRA #9389 SEATTLE WA,13.18,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] CRUNCH FITNESS*RU8LJ87DQ,116.11,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] LOWES PHOENIX AZ,461.03,debit,Shopping,Shopping,LOWES,False
+[debit] SQ *WEGMANS BROOKLYN NY,110.35,debit,Groceries,Food & Drink,WEGMANS,False
+[credit] PURCHASE STATE OF IN PAYROLL ATLANTA GAUS,3623.12,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] SUNOCO*EXLF0LQ70,24.47,debit,Gas,Transportation,SUNOCO,False
+[debit] XBOX GAME PASS*TEM75D,68.31,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[credit] POS DEBIT PAYROLL DEP V58P1V,4174.5,credit,Income,Income,PAYROLL DEP,False
+[debit] PAPER STATEMENT FEE JTQP,33.4,debit,Fees,Transfers & Fees,PAPER STATEMENT FEE,False
+[debit] FOREIGN TRANS FEE HWC1,38.8,debit,Fees,Transfers & Fees,FOREIGN TRANS FEE,False
+[debit] POS DEBIT CRUNCH FITNESS 4F0HTJ,13.55,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] UBER EATS*2DGAMV,32.91,debit,Dining,Food & Drink,UBER EATS,False
+[credit] STATE OF IN PAYROLL DES:ACH PMT ID:KE82U85NMS INDN:CARDHOLDER,3933.59,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] PURCHASE DUNKIN CHICAGO ILUS,11.59,debit,Coffee,Food & Drink,DUNKIN,False
+[debit] SQ *WEGMANS NASHVILLE TN,14.75,debit,Groceries,Food & Drink,WEGMANS,False
+[debit] SQ *DUNKIN COLUMBUS OH,9.83,debit,Coffee,Food & Drink,DUNKIN,False
+[credit] PURCHASE PAYROLL DEP BROOKLYN NYUS,470.3,credit,Income,Income,PAYROLL DEP,False
+[debit] POS DEBIT SHELL OIL HS16XN,78.91,debit,Gas,Transportation,SHELL OIL,False
+[debit] SQ *DUNKIN SAN FRANCI CA,10.3,debit,Coffee,Food & Drink,DUNKIN,False
+[debit] T-MOBILE DES:DEPOSIT ID:5EW26F2S7Y INDN:CARDHOLDER,140.07,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] PLAYSTATION NETWORK*CQV78KA,151.39,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] PURCHASE CTA VENTRA BROOKLYN NYUS,57.55,debit,Rideshare,Transportation,CTA VENTRA,False
+[credit] PURCHASE PAYROLL DEP INDIANAPOLIS INUS,694.51,credit,Income,Income,PAYROLL DEP,False
+[debit] STOP N SHOP #2243 CHICAGO IL,17.82,debit,Groceries,Food & Drink,STOP N SHOP,False
+[debit] PEARSON EDUCATION*G3HKG4YV,347.12,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] POS DEBIT ONE MEDICAL DAY4KU,219.13,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] CRUNCH FITNESS DES:BILLPAY ID:2RRAZ932CV INDN:CARDHOLDER,83.35,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] DICKS SPORTING GDS #3733 SAN FRANCISCO CA,107.31,debit,Shopping,Shopping,DICKS SPORTING GDS,False
+[debit] LINCOLN PROP CO AUSTIN TX,1702.51,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] STOP N SHOP #8231 DENVER CO,140.37,debit,Groceries,Food & Drink,STOP N SHOP,False
+[debit] CHEGG ORDER*2FBQB0J,594.91,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] POS DEBIT NETFLIX.COM 9EYH8Y,24.21,debit,Subscriptions,Entertainment,NETFLIX.COM,False
+[debit] DELTA AIR LINES #303 PHOENIX AZ,1201.7,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] HEB ONLINE #6507 CHICAGO IL,61.23,debit,Groceries,Food & Drink,HEB ONLINE,False
+[debit] POS DEBIT DUNKIN YMV5UD,14.91,debit,Coffee,Food & Drink,DUNKIN,False
+[credit] STATE OF IN PAYROLL DES:PAYMENT ID:Z90QPMAF25 INDN:CARDHOLDER,3202.78,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] LOWES #1748 ATLANTA GA,323.51,debit,Shopping,Shopping,LOWES,False
+[debit] PURCHASE LOWES ATLANTA GAUS,249.23,debit,Shopping,Shopping,LOWES,False
+[debit] AVALON COMMUNITIES DES:DIRECT DEP ID:LZSE2VH4HS INDN:CARDHOLDER,1608.69,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[credit] STATE OF IN PAYROLL DES:ACH PMT ID:0FLKNEEUZB INDN:CARDHOLDER,2832.51,credit,Income,Income,STATE OF IN PAYROLL,False
+[debit] PURCHASE FIVE GUYS WEST LAFAYETTE INUS,70.37,debit,Dining,Food & Drink,FIVE GUYS,False
+[debit] PLAYSTATION NETWORK DENVER CO,92.66,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[credit] PAYROLL DEP DES:BILLPAY ID:40EF50PH80 INDN:CARDHOLDER,2568.06,credit,Income,Income,PAYROLL DEP,False
+[credit] PAYROLL DEP*KR7ATYNBB8,3379.37,credit,Income,Income,PAYROLL DEP,False
+[credit] SQ *SOUTHWEST AIRLINE BROOKLYN NY,596.1,credit,Travel,Transportation,SOUTHWEST AIRLINE,False
+[debit] DUNKIN*SWFPC4,6.62,debit,Coffee,Food & Drink,DUNKIN,False
+[debit] CLASSPASS DES:PAYMENT ID:QPERMWJQUB INDN:CARDHOLDER,43.56,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] POS DEBIT T-MOBILE NPNNVK,104.72,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] PURCHASE UBER TRIP ATLANTA GAUS,12.26,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] CLASSPASS DES:DIRECT DEP ID:QRFNSZW38N INDN:CARDHOLDER,137.18,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] LINCOLN PROP CO DES:DEPOSIT ID:3Y0XTJH29X INDN:CARDHOLDER,1656.03,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
+[debit] NOTION LABS DES:DIRECT DEP ID:LB8BU7MRRL INDN:CARDHOLDER,38.41,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] SQ *SOFI MONEY XFER AUSTIN TX,432.49,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] POS DEBIT AVALON COMMUNITIES M60MBD,1671.57,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] PURCHASE ONE MEDICAL SAN FRANCISCO CAUS,413.91,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] SQ *ASPEN DENTAL ATLANTA GA,144.68,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[debit] SQ *SHAKE SHACK BROOKLYN NY,34.74,debit,Dining,Food & Drink,SHAKE SHACK,False
+[credit] PAYROLL DEP DES:PAYMENT ID:V7G8729QDK INDN:CARDHOLDER,2079.4,credit,Income,Income,PAYROLL DEP,False
+[debit] POS DEBIT UBER EATS 72YZF3,27.01,debit,Dining,Food & Drink,UBER EATS,False
+[debit] POS DEBIT CLASSPASS WGZYN0,153.11,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] POS DEBIT T-MOBILE 7BEZ82,306.18,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] CLASSPASS*YGSZV03,113.6,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] PEARSON EDUCATION DES:ACH PMT ID:RAF3SFASDE INDN:CARDHOLDER,1797.93,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] POS DEBIT ASPEN DENTAL 5CJ52D,625.65,debit,Healthcare,Health & Wellness,ASPEN DENTAL,False
+[debit] AMERICAN ELECTRIC INDIANAPOLIS IN,205.63,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] POS DEBIT AVALON COMMUNITIES JUV588,2018.27,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] PILOT TRAVEL CTR*KY9DU0,72.83,debit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] SQ *SHAKE SHACK SEATTLE WA,43.57,debit,Dining,Food & Drink,SHAKE SHACK,False
+[debit] SOFI MONEY XFER #793 SEATTLE WA,257.44,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] POS DEBIT DELTA AIR LINES 1PC6J2,1194.53,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] CLASSPASS DES:DEPOSIT ID:VVQC4QTJD0 INDN:CARDHOLDER,110.46,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] PLAYSTATION NETWORK #4355 PHOENIX AZ,160.13,debit,Entertainment,Entertainment,PLAYSTATION NETWORK,False
+[debit] SOFI MONEY XFER #3298 NASHVILLE TN,792.08,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] POS DEBIT DELTA AIR LINES 5W0UJ0,433.28,debit,Travel,Transportation,DELTA AIR LINES,False
+[debit] PURCHASE ONE MEDICAL ATLANTA GAUS,146.93,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] COMCAST XFINITY*54ZV83L,282.22,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] POS DEBIT LABCORP LK2067,472.12,debit,Healthcare,Health & Wellness,LABCORP,False
+[debit] NOTION LABS DES:PAYMENT ID:AHUHJ4SGVL INDN:CARDHOLDER,4.64,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] DICKS SPORTING GDS #5402 BROOKLYN NY,252.98,debit,Shopping,Shopping,DICKS SPORTING GDS,False
+[debit] PURCHASE WEGMANS SEATTLE WAUS,208.28,debit,Groceries,Food & Drink,WEGMANS,False
+[debit] SQ *ROBINHOOD FUNDING COLUMBUS OH,317.62,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] EVENTBRITE AUSTIN TX,49.53,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] LOWES #737 INDIANAPOLIS IN,349.99,debit,Shopping,Shopping,LOWES,False
+[debit] PURCHASE PEARSON EDUCATION ATLANTA GAUS,1713.39,debit,Education,Bills & Housing,PEARSON EDUCATION,False
+[debit] ONE MEDICAL*1R8CLK8U12,350.06,debit,Healthcare,Health & Wellness,ONE MEDICAL,False
+[debit] CLASSPASS CHICAGO IL,100.09,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] PURCHASE CLASSPASS DENVER COUS,103.39,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] POS DEBIT XBOX GAME PASS UR13ZG,176.75,debit,Entertainment,Entertainment,XBOX GAME PASS,False
+[debit] PURCHASE CLASSPASS ATLANTA GAUS,24.01,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] AMAZON WEB SERVICES WEST LAFAYETTE IN,34.57,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[credit] PAYROLL DEP DES:DEPOSIT ID:DQLZ38X4BA INDN:CARDHOLDER,289.58,credit,Income,Income,PAYROLL DEP,False
+[debit] AVALON COMMUNITIES DES:DEPOSIT ID:J7CKTH4BHH INDN:CARDHOLDER,1116.1,debit,Rent,Bills & Housing,AVALON COMMUNITIES,False
+[debit] T-MOBILE DES:PAYMENT ID:JNVFTVLBBD INDN:CARDHOLDER,283.26,debit,Utilities,Bills & Housing,T-MOBILE,False
+[debit] AIRBNB #8457 PHOENIX AZ,674.92,debit,Travel,Transportation,AIRBNB,False
+[debit] CTA VENTRA #463 BROOKLYN NY,43.21,debit,Rideshare,Transportation,CTA VENTRA,False
+[debit] POS DEBIT CHEGG ORDER QN7KQ2,1468.71,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] AMERICAN ELECTRIC SEATTLE WA,176.03,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] POS DEBIT LOWES X5F6A2,336.97,debit,Shopping,Shopping,LOWES,False
+[credit] PILOT TRAVEL CTR CHICAGO IL,45.32,credit,Gas,Transportation,PILOT TRAVEL CTR,False
+[debit] HEB ONLINE #1677 ATLANTA GA,162.06,debit,Groceries,Food & Drink,HEB ONLINE,False
+[debit] CRUNCH FITNESS SEATTLE WA,142.08,debit,Fitness,Health & Wellness,CRUNCH FITNESS,False
+[debit] PURCHASE DICKS SPORTING GDS COLUMBUS OHUS,440.79,debit,Shopping,Shopping,DICKS SPORTING GDS,False
+[debit] DUNKIN #7159 INDIANAPOLIS IN,8.67,debit,Coffee,Food & Drink,DUNKIN,False
+[debit] EVENTBRITE*YNBCY9,160.91,debit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] PURCHASE NOTION LABS PHOENIX AZUS,39.09,debit,Subscriptions,Entertainment,NOTION LABS,False
+[debit] PURCHASE WEGMANS NASHVILLE TNUS,20.95,debit,Groceries,Food & Drink,WEGMANS,False
+[debit] HEB ONLINE #1512 INDIANAPOLIS IN,91.81,debit,Groceries,Food & Drink,HEB ONLINE,False
+[debit] PURCHASE SOFI MONEY XFER BROOKLYN NYUS,434.42,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] SQ *LOWES SEATTLE WA,299.39,debit,Shopping,Shopping,LOWES,False
+[debit] CHEGG ORDER COLUMBUS OH,282.79,debit,Education,Bills & Housing,CHEGG ORDER,False
+[debit] STARBUCKS #3809 NASHVILLE TN,5.99,debit,Coffee,Food & Drink,STARBUCKS,False
+[credit] EVENTBRITE #5241 WEST LAFAYETTE IN,83.8,credit,Entertainment,Entertainment,EVENTBRITE,False
+[debit] PURCHASE AMAZON WEB SERVICES SAN FRANCISCO CAUS,30.12,debit,Subscriptions,Entertainment,AMAZON WEB SERVICES,False
+[debit] SQ *SOFI MONEY XFER DENVER CO,438.47,debit,Transfer,Transfers & Fees,SOFI MONEY XFER,False
+[debit] CLASSPASS*BFHHT6H,130.41,debit,Fitness,Health & Wellness,CLASSPASS,False
+[debit] ROBINHOOD FUNDING INDIANAPOLIS IN,645.45,debit,Transfer,Transfers & Fees,ROBINHOOD FUNDING,False
+[debit] AMERICAN ELECTRIC DES:ACH PMT ID:N5Y601AW2Y INDN:CARDHOLDER,190.24,debit,Utilities,Bills & Housing,AMERICAN ELECTRIC,False
+[debit] UBER TRIP*HHMX9UEQ,27.27,debit,Rideshare,Transportation,UBER TRIP,False
+[debit] COMCAST XFINITY DES:PAYMENT ID:DMXFKRA6HS INDN:CARDHOLDER,290.0,debit,Utilities,Bills & Housing,COMCAST XFINITY,False
+[debit] PURCHASE LINCOLN PROP CO SEATTLE WAUS,1173.83,debit,Rent,Bills & Housing,LINCOLN PROP CO,False
