@@ -207,11 +207,3 @@ a model problem.
 2. Add a correction loop: store user fixes as labeled data and retrain.
 3. Route review-queue items to a local LLM so fewer reach the user.
 4. Expose `categorize_batch` behind the API my teammate's display layer calls.
-
----
-
-## GenAI usage
-
-[WRITE THIS YOURSELF — see the assignment's GenAI Usage Statement section.
-Identify which files or sections were authored with GenAI assistance and what
-you did independently.]

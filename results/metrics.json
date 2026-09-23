@@ -23,7 +23,7 @@
       "accuracy": 0.3747,
       "macro_f1": 0.382
     },
-    "median_latency_ms": 1.82,
+    "median_latency_ms": 1.75,
     "model_size_kb": 1466.2
   },
   "confidence_gate": {

@@ -7,7 +7,7 @@ All numbers produced by `python scripts/evaluate.py`.
 | Approach | Test accuracy | Test macro-F1 | Unseen-merchant macro-F1 | Median latency |
 |---|---|---|---|---|
 | Rule baseline (21 rules) | 0.580 | 0.719 | 0.749 | <1 ms |
-| TF-IDF + calibrated logistic regression | 0.962 | 0.955 | 0.382 | 1.82 ms |
+| TF-IDF + calibrated logistic regression | 0.962 | 0.955 | 0.382 | 1.75 ms |
 
 The trained model improves macro-F1 over the rule baseline by **23.6 percentage points** on the same test set.
 Trained model size: 1466.2 KB.
