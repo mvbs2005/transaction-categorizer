@@ -2,7 +2,6 @@
 Tests.
 
 Run:  python -m pytest tests/ -v
-      (or: python tests/test_categorizer.py  to run without pytest)
 
 These cover the behaviours that would silently break the budgeting app:
 the taxonomy mapping, the direction rules, noise normalisation, and the
@@ -156,7 +155,3 @@ def test_every_result_is_a_valid_budget_category():
     ]
     for result in categorize_batch(samples):
         assert result.budget_category in BUDGET_CATEGORIES + [UNCERTAIN_LABEL]
-
-
-if __name__ == "__main__":
-    raise SystemExit(pytest.main([__file__, "-v"]))

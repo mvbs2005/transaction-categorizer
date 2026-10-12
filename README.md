@@ -1,209 +1,133 @@
-# Transaction Categorization for Budget Tracking
+# Transaction Categorizer for Balance
 
-ECE 49595 Senior Design I — Exercise 3 (Learn a Skill)
-**Author:** [Srikar Mallajosyula] · **Team:** [9]
+Classifies bank transaction descriptions into 17 detailed categories and maps
+them to eight budget categories. The pipeline uses TF-IDF features and
+calibrated logistic regression, then keyword rules when a prediction fails the
+confidence or out-of-vocabulary (OOV) checks. Unresolved transactions return
+`Needs Review`.
 
-Turning raw bank transaction descriptions into the budget categories our app
-tracks, with a confidence score and a review queue for the ones the system
-should not guess at.
-
-```
-[debit] SQ *BLUE BOTTLE SAN FRANCISCO CA   ->  Coffee   ->  Food & Drink   (0.98)
-[debit] AMZN MKTP US*2K4L91                ->  Shopping ->  Shopping       (0.98)
-[credit] VENMO CASHOUT*4419MZ              ->  Income   ->  Income         (0.96)
-[debit] SQ *MORNING GLORY BAKEHOUSE        ->  Needs Review  (unknown merchant)
-```
-
----
-
-## Why this exists
-
-Our project is a budgeting assistant. Every feature downstream of the bank
-connection needs to know *what a purchase was*, not just that it happened:
-
-- **Budgets are per-category.** A $300 monthly dining limit is meaningless
-  unless each transaction is assigned to Dining.
-- **Alerts consume categories.** My teammate's notification logic takes
-  per-category spend as input; this module produces it.
-- **Plaid does not finish the job.** We plan to use Plaid, but it returns its
-  own fixed taxonomy and attaches a confidence level that can be LOW. Our app
-  still needs a mapping into *our* budget categories and a decision about what
-  to do when confidence is poor. Plaid is not yet integrated, so this module
-  also serves as the stand-in until it is.
-
-**Skill being learned:** short-text classification on noisy financial strings —
-feature engineering for abbreviated merchant text, probability calibration,
-honest evaluation design, and confidence-gated inference.
-
----
-
-## Results
-
-Produced by `python scripts/evaluate.py`. Full tables in
-[`results/results.md`](results/results.md); raw numbers in
-[`results/metrics.json`](results/metrics.json).
-
-| Approach | Test accuracy | Test macro-F1 | Unseen-merchant macro-F1 | Median latency |
-|---|---|---|---|---|
-| Rule baseline (21 hand-written rules) | 0.580 | 0.719 | 0.749 | <1 ms |
-| TF-IDF + calibrated logistic regression | **0.962** | **0.955** | 0.382 | 3.4 ms |
-
-The trained model beats the rule baseline by **23.6 macro-F1 points** on
-familiar merchants, and loses badly to it on merchants it has never seen. That
-contrast is the main finding of this exercise, and it is why the shipped
-pipeline uses both:
-
-| Shipped pipeline | Auto-categorized | Accuracy when auto | Sent to review |
-|---|---|---|---|
-| Familiar merchants | 97.0% | 97.8% | 3.0% |
-| New merchants | 76.8% | 92.0% | 23.2% |
-
-![Confusion matrix](results/confusion_matrix.png)
-
----
-
-## Quickstart
+## Setup
 
 ```bash
-git clone https://github.com/[YOUR-USERNAME]/transaction-categorizer.git
+git clone https://github.com/mvbs2005/transaction-categorizer.git
 cd transaction-categorizer
-python -m venv .venv && source .venv/bin/activate    # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-
-python scripts/generate_data.py    # build train / test / unseen-merchant splits
-python scripts/train.py            # train and save the model (~3 s)
-python scripts/evaluate.py         # metrics, confusion matrix, threshold sweep
-python scripts/demo.py --budgets   # categorize a sample statement + budget rollup
-python -m pytest tests/ -v         # 17 tests
+git checkout exercise5-confidence-gate
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 ```
 
-Optional local-LLM comparison (requires [Ollama](https://ollama.com)):
+On Windows, activate the environment with `.venv\Scripts\activate`.
+Scikit-learn is pinned to 1.9.1 to match the supplied model files. The datasets
+and trained models are included.
+
+## Run
 
 ```bash
-ollama pull llama3.2:3b
-python scripts/evaluate.py --llm --llm-samples 100
+python scripts/demo.py --budgets
+python scripts/demo.py --interactive
+python scripts/evaluate.py
+python -m pytest tests/ -q
 ```
 
-### Using it from other modules
+To rebuild the synthetic datasets and default model:
+
+```bash
+python scripts/generate_data.py
+python scripts/train.py
+```
+
+## Use from Python
 
 ```python
-from src.categorize import categorize, spending_by_budget_category
+from src.categorize import categorize, categorize_batch, spending_by_budget_category
 
-result = categorize("[debit] SQ *BLUE BOTTLE SAN FRANCISCO CA", amount=6.25)
-result.budget_category   # "Food & Drink"
-result.confidence        # 0.98
-result.needs_review      # False
-result.decided_by        # "model" | "rules" | "needs_review"
+result = categorize("[debit] CHIPOTLE #1882", amount=14.80)
+print(result.budget_category, result.confidence, result.needs_review)
 
-spending_by_budget_category(transactions)   # {"Bills & Housing": 1298.44, ...}
+transactions = [
+    {"description": "[debit] CHIPOTLE #1882", "amount": 14.80, "direction": "debit"},
+]
+results = categorize_batch(transactions)
+totals = spending_by_budget_category(transactions)
 ```
 
----
+Each result includes the detailed category, budget category, confidence,
+review flag, decision source, and alternative predictions. A rule-based result
+retains the model's confidence value; that value is not a measured probability
+for the rule's decision.
 
-## How it works
+## Confidence gate evaluation
 
-```
-raw description
-      |
-      v
- normalize()            strip store numbers, reference codes, dates
-      |
-      v
- TF-IDF features        word 1-2 grams  +  character 3-5 grams
-      |
-      v
- calibrated logistic regression  -->  category + trustworthy probability
-      |
-      +-- confident?           --> use it
-      +-- unknown merchant? ---+
-      +-- low confidence?  ----+--> keyword rules --> matched? use it
-                                                  --> no match?  Needs Review
-      |
-      v
- budget category  (17 source categories -> 8 app budget categories)
+The tuning workflow reserves merchants and familiar descriptions from
+`data/train.csv` for validation, searches both gate settings, and freezes the
+selection before opening the final test files. It then refits on the original
+training data and measures the selected settings on the final benchmarks.
+
+```bash
+python scripts/tune_gate.py
+python scripts/demo.py --model-path models/categorizer_candidate.joblib --budgets
+python scripts/evaluate.py --model-path models/categorizer_candidate.joblib
 ```
 
-| File | Purpose |
+The candidate is exported to `models/categorizer_candidate.joblib`. To compare
+it in another module, load it with `TransactionCategorizer.load()` and pass it
+as the optional `model=` argument to the categorization functions.
+
+The default model uses a confidence threshold of 0.55 and an OOV cutoff of
+0.60. Validation selected 0.62 and 0.75 for the candidate. On the combined
+final benchmark of 3,190 transactions:
+
+| Measurement | Default settings | Candidate settings |
+|---|---|---|
+| Accepted model accuracy, including OOV check | 96.15% | 95.97% |
+| Model gate review rate | 23.45% | 22.92% |
+| Automatic accuracy after rule fallback | 96.43% | 96.11% |
+| Review rate after rule fallback | 8.68% | 9.03% |
+
+The candidate missed the model gate's 20% review target and reduced automatic
+accuracy on unseen merchants. It remains optional; the original model is the
+default. The evaluator measures the saved gate settings and never selects new
+settings from the test-set sweep.
+
+## Outputs
+
+- `results/`: evaluation metrics, confusion matrix, probability-threshold
+  diagnostics, and misclassified examples.
+- `results/gate_tuning/`: joint search, validation split manifest, selected
+  settings, final comparisons, changed decisions, and reliability plots with
+  confidence-bin counts.
+- `models/`: default and candidate models with JSON metadata. The candidate
+  metadata records both gate settings and their validation provenance.
+
+Both evaluation scripts accept `--output-dir`. The evaluator uses
+`--model-path` to choose a saved model; the tuner uses it to set the candidate
+export path. Running the scripts regenerates their outputs.
+
+## Project layout
+
+| Location | Purpose |
 |---|---|
-| `src/categories.py` | The two taxonomies and the mapping between them |
-| `src/data_generator.py` | Synthetic statement generator with held-out merchants |
-| `src/rules.py` | Keyword baseline, also used as the fallback layer |
-| `src/ml_model.py` | Features, training, calibration, confidence gate, OOV check |
-| `src/llm_classifier.py` | Optional local-LLM (Ollama) comparison arm |
-| `src/categorize.py` | The public API other modules import |
-| `scripts/` | generate_data · train · evaluate · demo |
-| `tests/` | 17 tests covering taxonomy, rules, normalisation, pipeline |
+| `src/categorize.py` | Single and batch categorization, budget totals |
+| `src/ml_model.py` | Normalization, features, training, saved gate settings |
+| `src/gate_evaluation.py` | Validation splitting, joint search, reliability metrics |
+| `src/categories.py`, `src/rules.py` | Category mapping and keyword fallback |
+| `src/data_generator.py` | Synthetic transaction generation |
+| `src/llm_classifier.py` | Optional Ollama comparison |
+| `scripts/` | Data generation, training, evaluation, tuning, and demos |
+| `tests/` | Categorization and confidence gate regression tests |
 
-### Design decisions worth explaining
-
-**Word features plus character features.** Word n-grams capture merchant
-tokens; character n-grams survive the glued-together abbreviations word
-tokenisation destroys (`AMZN MKTP US*2K4L91`). Character features are also the
-only reason an unseen merchant like `REI.COM*K92LMQ4` is classified correctly.
-
-**Calibration.** A raw logistic-regression score is not a probability. With
-calibration, "0.9 confidence" corresponds to being right about 90% of the time,
-which is what makes the confidence threshold meaningful rather than arbitrary.
-
-**Two independent reasons to send something to review.** Low probability is the
-obvious one. The second is out-of-vocabulary coverage: if most tokens in a
-description were never seen in training, the merchant is new, and even a
-confident-looking score deserves a second look. In the demo,
-`SQ *MORNING GLORY BAKEHOUSE` scores 0.93 and is still flagged — correctly.
-
-**Leakage control.** Exact-duplicate descriptions are removed before splitting,
-and held-out merchants are asserted absent from training. Without these,
-evaluation scores are inflated and meaningless.
-
----
-
-## What I learned the hard way
-
-**A normalisation regex nearly sank the project.** My first noise-stripping
-pattern replaced any uppercase token of six or more characters with a
-placeholder, which was meant to remove reference codes. It also removed
-`STARBUCKS`, `KROGER` and every other merchant name. Test accuracy sat at 0.699
-and I assumed the model architecture was wrong. It was the preprocessing.
-Fixing the regex to only collapse tokens *mixing letters and digits* moved
-accuracy to 0.962 with no model change at all.
-
-**Memorisation is not generalisation.** The model scores 0.955 macro-F1 on
-familiar merchants and 0.382 on merchants withheld from training. The same
-model, the same categories — the only difference is whether it had seen the
-merchant name. If I had only reported the first number, the result would have
-been a fiction.
-
-**High precision with low coverage is still valuable.** The rule baseline is
-correct 94% of the time when it fires but only fires on 62% of transactions.
-That profile is useless alone and excellent as a fallback, which is why the
-final pipeline consults it exactly when the model is unsure.
-
-**The remaining errors are mostly real ambiguity.** The largest confusion block
-is Shopping predicted as Groceries, driven by merchants like Target, Walmart
-and Costco that genuinely sell both. No classifier fixes that from the
-description alone; only the user knows. That is a confidence-gate problem, not
-a model problem.
-
----
+The optional local-LLM comparison requires Ollama with the requested model
+available locally. Run it with `python scripts/evaluate.py --llm --llm-samples 100`.
 
 ## Limitations
 
-- **Training data is synthetic.** It reproduces real statement *formats*, but
-  it is generated. Published results on real bank data report far lower scores
-  (roughly 60–73% accuracy), so treat 0.96 as an upper bound, not a forecast.
-- **The category set is fixed.** Users cannot yet define custom budget
-  categories.
-- **No learning from corrections.** When a user fixes a category, nothing
-  currently feeds that back into the model.
-- **Amount is not used as a feature.** Only the description and direction are.
-- **The local-LLM arm is optional** and only runs if Ollama is installed.
+Training data is synthetic, and unseen merchants are substantially harder
+than familiar ones: raw model macro-F1 is 0.955 on familiar merchants and
+0.382 on unseen merchants. Calibration does not guarantee reliable confidence
+on new merchants. Categories are fixed, amounts are not model features, and
+user corrections are not yet used for retraining. Plaid integration is future
+work.
 
----
-
-## Next steps
-
-1. Swap the synthetic data for real descriptions once Plaid is connected, and
-   re-measure everything against Plaid's own categories.
-2. Add a correction loop: store user fixes as labeled data and retrain.
-3. Route review-queue items to a local LLM so fewer reach the user.
-4. Expose `categorize_batch` behind the API my teammate's display layer calls.
+Original categorization pipeline: Srikar Mallajosyula. Validation and confidence
+gate evaluation extension: Jackson Graff.

@@ -1,0 +1,243 @@
+{
+  "author": "Jackson Graff",
+  "date": "2026-10-12T13:16:58.450188-04:00",
+  "environment": {
+    "python": "3.14.7",
+    "scikit_learn": "1.9.1"
+  },
+  "selection": {
+    "source": "train.csv validation only",
+    "chosen": {
+      "threshold": 0.62,
+      "oov_cutoff": 0.75,
+      "total": 3134,
+      "accepted_count": 2252,
+      "correct_accepted": 2150,
+      "coverage": 0.7185705169112955,
+      "review_rate": 0.2814294830887045,
+      "accuracy_on_accepted": 0.9547069271758437,
+      "objective_met": false,
+      "status": "review_target_unmet",
+      "target_accuracy": 0.95,
+      "max_review_rate": 0.2
+    },
+    "split": {
+      "seed": 2026,
+      "original_training_rows": 9184,
+      "fitting_rows": 6050,
+      "validation_rows": 3134,
+      "validation_slices": {
+        "familiar": 2017,
+        "unseen": 1117
+      },
+      "reserved_merchants": [
+        "BOOKING.COM",
+        "CAMPUS CROSSING",
+        "CARIBOU COFFEE",
+        "CASH APP TRANSFER",
+        "DISNEY PLUS",
+        "FOOD LION",
+        "IU HEALTH",
+        "LA FITNESS",
+        "MTA VENDING MACH",
+        "NIPSCO",
+        "NOODLES AND CO",
+        "OVERDRAFT FEE",
+        "PAYPAL INST XFER",
+        "PURDUE UNIVERSITY",
+        "TARGET",
+        "TICKETMASTER",
+        "WAWA"
+      ],
+      "training_sha256": "d47ca5bff66d9f2cffa16a3268b75efaab5c1c0aa8a56912770abf4d6c038071",
+      "split_manifest_sha256": "4e3c31d9091bb8f69e4bc205d82401726d9b83d03426bb50da01683fdb7522db"
+    },
+    "candidate_count": 1200,
+    "refit": "Classifier refitted on all original training rows after settings were frozen."
+  },
+  "baseline_validation_gate": {
+    "total": 3134,
+    "accepted_count": 2256,
+    "correct_accepted": 2131,
+    "coverage": 0.7198468410976387,
+    "review_rate": 0.28015315890236125,
+    "accuracy_on_accepted": 0.9445921985815603
+  },
+  "validation_reliability": {
+    "familiar": {
+      "top_label_ece_10_bins": 0.03360054007471337,
+      "sample_count": 2017
+    },
+    "unseen": {
+      "top_label_ece_10_bins": 0.11349892605922549,
+      "sample_count": 1117
+    }
+  },
+  "final": {
+    "familiar": {
+      "ungated_accuracy": 0.9616724738675958,
+      "ungated_macro_f1": 0.9549859777961823,
+      "baseline_gate": {
+        "total": 2296,
+        "accepted_count": 2203,
+        "correct_accepted": 2157,
+        "coverage": 0.9594947735191638,
+        "review_rate": 0.04050522648083621,
+        "accuracy_on_accepted": 0.9791193826600091,
+        "objective_met": true
+      },
+      "baseline_pipeline": {
+        "total": 2296,
+        "accepted_count": 2226,
+        "correct_accepted": 2177,
+        "coverage": 0.9695121951219512,
+        "review_rate": 0.030487804878048808,
+        "accuracy_on_accepted": 0.9779874213836478,
+        "decided_by": {
+          "model": 2203,
+          "rules": 23,
+          "review": 70
+        },
+        "objective_met": true
+      },
+      "tuned_gate": {
+        "total": 2296,
+        "accepted_count": 2173,
+        "correct_accepted": 2140,
+        "coverage": 0.9464285714285714,
+        "review_rate": 0.0535714285714286,
+        "accuracy_on_accepted": 0.9848136217211229,
+        "objective_met": true
+      },
+      "tuned_pipeline": {
+        "total": 2296,
+        "accepted_count": 2204,
+        "correct_accepted": 2166,
+        "coverage": 0.9599303135888502,
+        "review_rate": 0.04006968641114983,
+        "accuracy_on_accepted": 0.9827586206896551,
+        "decided_by": {
+          "model": 2173,
+          "rules": 31,
+          "review": 92
+        },
+        "objective_met": true
+      }
+    },
+    "unseen": {
+      "ungated_accuracy": 0.37472035794183445,
+      "ungated_macro_f1": 0.3819572542482069,
+      "baseline_gate": {
+        "total": 894,
+        "accepted_count": 239,
+        "correct_accepted": 191,
+        "coverage": 0.26733780760626397,
+        "review_rate": 0.732662192393736,
+        "accuracy_on_accepted": 0.799163179916318,
+        "objective_met": false
+      },
+      "baseline_pipeline": {
+        "total": 894,
+        "accepted_count": 687,
+        "correct_accepted": 632,
+        "coverage": 0.7684563758389261,
+        "review_rate": 0.23154362416107388,
+        "accuracy_on_accepted": 0.9199417758369723,
+        "decided_by": {
+          "model": 239,
+          "rules": 448,
+          "review": 207
+        },
+        "objective_met": false
+      },
+      "tuned_gate": {
+        "total": 894,
+        "accepted_count": 286,
+        "correct_accepted": 220,
+        "coverage": 0.319910514541387,
+        "review_rate": 0.680089485458613,
+        "accuracy_on_accepted": 0.7692307692307693,
+        "objective_met": false
+      },
+      "tuned_pipeline": {
+        "total": 894,
+        "accepted_count": 698,
+        "correct_accepted": 623,
+        "coverage": 0.7807606263982103,
+        "review_rate": 0.2192393736017897,
+        "accuracy_on_accepted": 0.8925501432664756,
+        "decided_by": {
+          "model": 286,
+          "rules": 412,
+          "review": 196
+        },
+        "objective_met": false
+      }
+    },
+    "mixed": {
+      "ungated_accuracy": 0.79717868338558,
+      "ungated_macro_f1": 0.8096752528090685,
+      "baseline_gate": {
+        "total": 3190,
+        "accepted_count": 2442,
+        "correct_accepted": 2348,
+        "coverage": 0.7655172413793103,
+        "review_rate": 0.23448275862068968,
+        "accuracy_on_accepted": 0.9615069615069615,
+        "objective_met": false
+      },
+      "baseline_pipeline": {
+        "total": 3190,
+        "accepted_count": 2913,
+        "correct_accepted": 2809,
+        "coverage": 0.9131661442006269,
+        "review_rate": 0.08683385579937308,
+        "accuracy_on_accepted": 0.9642979745966358,
+        "decided_by": {
+          "model": 2442,
+          "rules": 471,
+          "review": 277
+        },
+        "objective_met": true
+      },
+      "tuned_gate": {
+        "total": 3190,
+        "accepted_count": 2459,
+        "correct_accepted": 2360,
+        "coverage": 0.770846394984326,
+        "review_rate": 0.22915360501567394,
+        "accuracy_on_accepted": 0.9597397315982107,
+        "objective_met": false
+      },
+      "tuned_pipeline": {
+        "total": 3190,
+        "accepted_count": 2902,
+        "correct_accepted": 2789,
+        "coverage": 0.909717868338558,
+        "review_rate": 0.09028213166144206,
+        "accuracy_on_accepted": 0.9610613370089593,
+        "decided_by": {
+          "model": 2459,
+          "rules": 443,
+          "review": 288
+        },
+        "objective_met": true
+      }
+    }
+  },
+  "final_reliability": {
+    "familiar": {
+      "top_label_ece_10_bins": 0.025490533411354425,
+      "sample_count": 2296
+    },
+    "unseen": {
+      "top_label_ece_10_bins": 0.14831903339419114,
+      "sample_count": 894
+    }
+  },
+  "changed_model_acceptance_count": 135,
+  "final_input_sha256": {
+    "test.csv": "7cca74fa07ded8ac59743b7724cd74fa489276b7133ccc92b09641c23af15e23",
+    "unseen_merchants.csv": "784996e735955773b58b53f04c0d6e444434f7eb440c15779e1cc9bc1ac05747"
+  }
+}

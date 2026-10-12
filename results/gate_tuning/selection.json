@@ -1,0 +1,50 @@
+{
+  "source": "train.csv validation only",
+  "chosen": {
+    "threshold": 0.62,
+    "oov_cutoff": 0.75,
+    "total": 3134,
+    "accepted_count": 2252,
+    "correct_accepted": 2150,
+    "coverage": 0.7185705169112955,
+    "review_rate": 0.2814294830887045,
+    "accuracy_on_accepted": 0.9547069271758437,
+    "objective_met": false,
+    "status": "review_target_unmet",
+    "target_accuracy": 0.95,
+    "max_review_rate": 0.2
+  },
+  "split": {
+    "seed": 2026,
+    "original_training_rows": 9184,
+    "fitting_rows": 6050,
+    "validation_rows": 3134,
+    "validation_slices": {
+      "familiar": 2017,
+      "unseen": 1117
+    },
+    "reserved_merchants": [
+      "BOOKING.COM",
+      "CAMPUS CROSSING",
+      "CARIBOU COFFEE",
+      "CASH APP TRANSFER",
+      "DISNEY PLUS",
+      "FOOD LION",
+      "IU HEALTH",
+      "LA FITNESS",
+      "MTA VENDING MACH",
+      "NIPSCO",
+      "NOODLES AND CO",
+      "OVERDRAFT FEE",
+      "PAYPAL INST XFER",
+      "PURDUE UNIVERSITY",
+      "TARGET",
+      "TICKETMASTER",
+      "WAWA"
+    ],
+    "training_sha256": "d47ca5bff66d9f2cffa16a3268b75efaab5c1c0aa8a56912770abf4d6c038071",
+    "split_manifest_sha256": "4e3c31d9091bb8f69e4bc205d82401726d9b83d03426bb50da01683fdb7522db"
+  },
+  "candidate_count": 1200,
+  "refit": "Classifier refitted on all original training rows after settings were frozen."
+}

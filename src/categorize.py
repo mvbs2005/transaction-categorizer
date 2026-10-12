@@ -75,9 +75,10 @@ def categorize(
     amount: float = 0.0,
     direction: str | None = None,
     use_rule_fallback: bool = True,
+    model: TransactionCategorizer | None = None,
 ) -> CategoryResult:
     """Categorize a single transaction description."""
-    model = load_model()
+    model = load_model() if model is None else model
 
     if direction is None:
         direction = "credit" if "[credit]" in description.lower() else "debit"
@@ -120,7 +121,9 @@ def categorize(
     )
 
 
-def categorize_batch(transactions: list[dict]) -> list[CategoryResult]:
+def categorize_batch(
+    transactions: list[dict], model: TransactionCategorizer | None = None
+) -> list[CategoryResult]:
     """Categorize many transactions.
 
     Each item needs a "description" key; "amount" and "direction" are optional.
@@ -132,18 +135,21 @@ def categorize_batch(transactions: list[dict]) -> list[CategoryResult]:
             t["description"],
             amount=t.get("amount", 0.0),
             direction=t.get("direction"),
+            model=model,
         )
         for t in transactions
     ]
 
 
-def spending_by_budget_category(transactions: list[dict]) -> dict[str, float]:
+def spending_by_budget_category(
+    transactions: list[dict], model: TransactionCategorizer | None = None
+) -> dict[str, float]:
     """Roll categorized transactions up into per-budget-category totals.
 
     This is the shape the budget-alerting module consumes.
     """
     totals: dict[str, float] = {}
-    for transaction, result in zip(transactions, categorize_batch(transactions)):
+    for transaction, result in zip(transactions, categorize_batch(transactions, model=model)):
         if transaction.get("direction") == "credit":
             continue  # money in is not spending
         totals[result.budget_category] = round(

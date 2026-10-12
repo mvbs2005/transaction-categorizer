@@ -44,6 +44,12 @@ from .categories import UNCERTAIN_LABEL, to_budget_category
 
 DEFAULT_MODEL_PATH = Path(__file__).resolve().parent.parent / "models" / "categorizer.joblib"
 DEFAULT_THRESHOLD = 0.55
+DEFAULT_OOV_CUTOFF = 0.6
+
+
+def acceptance_mask(confidence, oov_ratio, threshold: float, oov_cutoff: float):
+    """The same gate is used for inference and validation, before rounding."""
+    return (np.asarray(confidence) >= threshold) & (np.asarray(oov_ratio) <= oov_cutoff)
 
 # Tokens that carry no signal: store numbers, reference codes, dates.
 _NOISE_PATTERNS = [
@@ -124,10 +130,16 @@ def build_pipeline() -> Pipeline:
 class TransactionCategorizer:
     """Train, persist and query the categorizer."""
 
-    def __init__(self, threshold: float = DEFAULT_THRESHOLD):
+    def __init__(
+        self, threshold: float = DEFAULT_THRESHOLD, oov_cutoff: float = DEFAULT_OOV_CUTOFF
+    ):
+        if not 0 <= threshold <= 1 or not 0 <= oov_cutoff <= 1:
+            raise ValueError("Threshold and OOV cutoff must be between 0 and 1.")
         self.pipeline: Pipeline | None = None
         self.threshold = threshold
+        self.oov_cutoff = oov_cutoff
         self.vocabulary_: set[str] = set()
+        self.gate_selection_: dict = {}
 
     # -- training ---------------------------------------------------------
     def fit(self, descriptions: list[str], labels: list[str]) -> "TransactionCategorizer":
@@ -163,8 +175,9 @@ class TransactionCategorizer:
             confidence = float(row[best_index])
             category = str(classes[best_index])
 
-            low_coverage = self.oov_ratio(description) > 0.6
-            uncertain = confidence < self.threshold or low_coverage
+            oov = self.oov_ratio(description)
+            low_coverage = oov > self.oov_cutoff
+            uncertain = not bool(acceptance_mask(confidence, oov, self.threshold, self.oov_cutoff))
 
             if not uncertain:
                 reason = ""
@@ -214,6 +227,8 @@ class TransactionCategorizer:
             {
                 "pipeline": self.pipeline,
                 "threshold": self.threshold,
+                "oov_cutoff": self.oov_cutoff,
+                "gate_selection": self.gate_selection_,
                 "vocabulary": self.vocabulary_,
             },
             path,
@@ -221,6 +236,8 @@ class TransactionCategorizer:
         )
         meta = {
             "threshold": self.threshold,
+            "oov_cutoff": self.oov_cutoff,
+            "gate_selection": self.gate_selection_,
             "vocabulary_size": len(self.vocabulary_),
             "size_kb": round(path.stat().st_size / 1024, 1),
         }
@@ -230,7 +247,11 @@ class TransactionCategorizer:
     @classmethod
     def load(cls, path: Path = DEFAULT_MODEL_PATH) -> "TransactionCategorizer":
         payload = joblib.load(Path(path))
-        model = cls(threshold=payload["threshold"])
+        model = cls(
+            threshold=payload["threshold"],
+            oov_cutoff=payload.get("oov_cutoff", DEFAULT_OOV_CUTOFF),
+        )
         model.pipeline = payload["pipeline"]
         model.vocabulary_ = payload["vocabulary"]
+        model.gate_selection_ = payload.get("gate_selection", {})
         return model

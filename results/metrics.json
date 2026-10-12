@@ -23,17 +23,21 @@
       "accuracy": 0.3747,
       "macro_f1": 0.382
     },
-    "median_latency_ms": 1.75,
+    "median_latency_ms": 2.35,
     "model_size_kb": 1466.2
   },
   "confidence_gate": {
     "objective_met": false,
     "selected_threshold": 0.55,
-    "accuracy_on_accepted": 0.9485,
-    "flagged_for_review": 0.2022
+    "oov_cutoff": 0.6,
+    "selection_source": "legacy saved settings; not validation-tuned",
+    "accuracy_on_accepted": 0.9615069615069615,
+    "flagged_for_review": 0.23448275862068968,
+    "accepted_count": 2442
   },
   "full_pipeline": {
     "threshold": 0.55,
+    "oov_cutoff": 0.6,
     "test": {
       "decided_by": {
         "model": 2203,

@@ -19,6 +19,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src.categorize import categorize, categorize_batch, spending_by_budget_category  # noqa: E402
+from src.ml_model import DEFAULT_MODEL_PATH, TransactionCategorizer  # noqa: E402
 
 SAMPLE_STATEMENT = [
     {"description": "[debit] SQ *BLUE BOTTLE SAN FRANCISCO CA", "amount": 6.25, "direction": "debit"},
@@ -50,8 +51,8 @@ MONTHLY_BUDGETS = {
 }
 
 
-def run_statement() -> None:
-    results = categorize_batch(SAMPLE_STATEMENT)
+def run_statement(model: TransactionCategorizer) -> None:
+    results = categorize_batch(SAMPLE_STATEMENT, model=model)
 
     print("\n" + "=" * 104)
     print(f"{'DESCRIPTION':<58}{'CATEGORY':<16}{'BUDGET':<19}{'CONF':>5}  SOURCE")
@@ -81,8 +82,8 @@ def run_statement() -> None:
     print("dropping the wrong amount into a budget category.\n")
 
 
-def run_budgets() -> None:
-    totals = spending_by_budget_category(SAMPLE_STATEMENT)
+def run_budgets(model: TransactionCategorizer) -> None:
+    totals = spending_by_budget_category(SAMPLE_STATEMENT, model=model)
 
     print("\n" + "=" * 62)
     print(f"{'BUDGET CATEGORY':<22}{'SPENT':>11}{'LIMIT':>11}{'USED':>9}  STATUS")
@@ -108,7 +109,7 @@ def run_budgets() -> None:
     print("per-category spend and decides when to notify the user.\n")
 
 
-def run_interactive() -> None:
+def run_interactive(model: TransactionCategorizer) -> None:
     print("\nType a transaction description (blank line to quit).")
     print("Try:  AMZN MKTP US*2K4L91   |   SQ *BLUE BOTTLE SF CA   |   DUKE ENERGY DES:ACH PMT\n")
     while True:
@@ -123,7 +124,7 @@ def run_interactive() -> None:
         if not raw.lower().startswith("["):
             raw = f"[debit] {raw}"
 
-        result = categorize(raw)
+        result = categorize(raw, model=model)
         print(f"  category   : {result.source_category}")
         print(f"  budget     : {result.budget_category}")
         print(f"  confidence : {result.confidence:.3f}")
@@ -137,15 +138,18 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--interactive", action="store_true")
     parser.add_argument("--budgets", action="store_true")
+    parser.add_argument("--model-path", type=Path, default=DEFAULT_MODEL_PATH)
     args = parser.parse_args()
+    model = TransactionCategorizer.load(args.model_path)
+    print(f"Model: {args.model_path.name} | threshold={model.threshold:.2f} | OOV cutoff={model.oov_cutoff:.2f}")
 
     if args.interactive:
-        run_interactive()
+        run_interactive(model)
     elif args.budgets:
-        run_statement()
-        run_budgets()
+        run_statement(model)
+        run_budgets(model)
     else:
-        run_statement()
+        run_statement(model)
 
 
 if __name__ == "__main__":
